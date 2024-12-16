@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ea7a4ea0ef17a44b98e6b0920aa5482, type: 3}
+  m_Name: EyndorWyd
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - text: "My role is to serve as the High King\u2019s advisor in all things magical."
+    voiceClip: {fileID: 8300000, guid: 003c45ad40c5b3443bc0a455392cd71c, type: 3}
+    textHighlight: 
+  - text: "I oversee Yggdrasil\u2019s leylines, ensuring they remain strong enough
+      to protect the city."
+    voiceClip: {fileID: 8300000, guid: b94d4cd4014b7324fbc3dd27c31a9f31, type: 3}
+    textHighlight: leylines
+  - text: Without them, the city would fall to the demons in days.
+    voiceClip: {fileID: 8300000, guid: c56dc4d0ae9d59e4faae9375ef5e7f7a, type: 3}
+    textHighlight: 
+  - text: "I also lead the mage unit, providing magical support to the guard, and
+      my research contributes to scholars across Altus\u2019s major holds."
+    voiceClip: {fileID: 8300000, guid: 0aa428510444cb2449233c1604fa9fd8, type: 3}
+    textHighlight: 
+  - text: "It\u2019s a task that demands my full attention\u2014and, unfortunately,
+      leaves little time for anything else. "
+    voiceClip: {fileID: 8300000, guid: 1d95adcdaf6c51b4f8df3fafc57652f5, type: 3}
+    textHighlight: 

@@ -1,0 +1,1808 @@
+fileFormatVersion: 2
+guid: 204acd9301f4cf64ebe661b70afcb212
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: better walls, better stairs 1_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 544
+        width: 452
+        height: 372
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99bb295a9e09cc47b202d36065a4a93
+      internalID: -62980737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 911
+        width: 40
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1b47b6863c4d74bac5ee4eb5bee277
+      internalID: 571974217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 908
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d458f846b026d4ead7183fe8c10424
+      internalID: 633717470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_3
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 911
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b51ad2249654f4eb32fa02f78ace14
+      internalID: 113952393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 908
+        width: 28
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcffdeef653861a48b54c95dd695b9c8
+      internalID: 922390324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_5
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 910
+        width: 44
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8862d2af50f72db4f84a9221018ab40d
+      internalID: 353697630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 910
+        width: 44
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536e830fb86ee3040b11629577fe89e2
+      internalID: -471592787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_7
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 576
+        width: 416
+        height: 340
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6690b0224322e30418ae9074ca2c84d4
+      internalID: -993851237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_8
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 911
+        width: 40
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99856268cf4b09459d040d128df6376
+      internalID: -626963377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_9
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 908
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce3237260c79294f8c777072ef8073e
+      internalID: 1623123678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_10
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 911
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc567f934c4dea4bb6e5e5ffd5ee107
+      internalID: 942919761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_11
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 908
+        width: 28
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5325247ee4f0f4ea4b0f08ccc5efa6
+      internalID: -1470395565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_12
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 910
+        width: 44
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8316b4af337af42b919646f4473793
+      internalID: 933847311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_13
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 910
+        width: 44
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acdc80c763781640b177af1be211a9a
+      internalID: -795765875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_14
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 544
+        width: 416
+        height: 492
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b6461ae4874314c96b74bb86934909
+      internalID: -1290516086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_15
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 556
+        width: 344
+        height: 404
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851064ca7cd456a43ab5b2de52decd16
+      internalID: -1073745035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_16
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 880
+        width: 5
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4161194441834204a9643d54b55e8b33
+      internalID: -1815027559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_17
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 860
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9d36a7a4d9d1a42b6516aa471dec96
+      internalID: 1069918981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_18
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 828
+        width: 11
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d00dd913e3a3664e9abb91b0f52ccaa
+      internalID: -2115770051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_19
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 788
+        width: 4
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9699225a8d2c949bcea3d3f6419d6a
+      internalID: -639019627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_20
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 804
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d603be5dbad2a54ca5b37cb4dd80995
+      internalID: 1067837384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_21
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 700
+        width: 4
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2414aedf63c24d54799a0131e589b705
+      internalID: -1626178767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_22
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 680
+        width: 4
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d011a2cd78519409d80cf0760a8ce3
+      internalID: 750709769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_23
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 608
+        width: 4
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c471d25dd1775f54788e4871a77af9e0
+      internalID: -1218398152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_24
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 624
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deceb5cd82f493b43b8b6b952cc1f5a5
+      internalID: -1019641020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_25
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 608
+        width: 4
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02f80bcd9587154e908166dda5bd1ff
+      internalID: 936632026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_26
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 612
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8beec6fa8d56a2d4995cf6eae69d91dd
+      internalID: 754436779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 423
+        height: 462
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be0e2cf0ab9aa945a6b822d2f14b172
+      internalID: -1790783952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_28
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 544
+        width: 438
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caff9407548f55444b10c7c5465fb7a8
+      internalID: 2020298681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_29
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 524
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcb843ab558ecb4e9cd6972e011986b
+      internalID: 902869429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_30
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 496
+        width: 37
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902a132ccbc09ad4db2de650ad73158f
+      internalID: -178353358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_31
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 496
+        width: 12
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c92c2091328a246b51af13d76730e9
+      internalID: 651207689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_32
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 497
+        width: 10
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5131701c5a2ed489708df6b79257b9
+      internalID: 212312846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_33
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 496
+        width: 28
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2358bfb4d54b6444e82caea16b3d412d
+      internalID: 1641901975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_34
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 500
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdbff43ded5a454cb14b93924716825
+      internalID: 1976936220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_35
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 496
+        width: 12
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1399c9d44822e2c4789ecc357414b842
+      internalID: 2079339005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_36
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 496
+        width: 30
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ae827a45ba3754f80f89a0fed23722
+      internalID: 1078847266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_37
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 496
+        width: 12
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ac10a3519eafa42b9b054a6203f7a5
+      internalID: -517239936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_38
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 120
+        width: 152
+        height: 386
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fe774312c437c4aac5c6a24c63f8dc
+      internalID: -1022393963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_39
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 488
+        width: 4
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc50b4587e956d74fb1a0d7453bdd2f3
+      internalID: -1290095462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_40
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 92
+        width: 1074
+        height: 408
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fdfb3b43c21ca4997be29a2b6c2b69
+      internalID: -302921512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_41
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 496
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a7abfbe918cd147b1b5e4090ee46be
+      internalID: 1058573323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_42
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 496
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67812944e40733b48a8b3a472620fa0c
+      internalID: -913023974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_43
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 496
+        width: 7
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261815dc647150042825278a20583170
+      internalID: 554195124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_44
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 496
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b6ddd03658ca44c810032733f71325
+      internalID: -888994253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_45
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 496
+        width: 14
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2549795d791254da5fd6c597d7461a
+      internalID: -1959520003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_46
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 496
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be967f476aa6d6c4592ef8d58f5da01e
+      internalID: -1434800040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_47
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 491
+        width: 22
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999a232289ce1b8419af610dc2b7f0f9
+      internalID: 1360242468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_48
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 483
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d2674d2cb160544955edcc62fc6f69
+      internalID: 2026682706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_49
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 475
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae83845a234e5e04e818d099808447b4
+      internalID: -187276402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_50
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 464
+        width: 4
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f7285e9bc7bb14998af958e5003b4c
+      internalID: -422956426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_51
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 444
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d0d3c17bb7d7c418609d102a790ca5
+      internalID: 979263842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_52
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 401
+        width: 6
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378aa85ece6f3f54cb1793d52576574a
+      internalID: 79586485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_53
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 380
+        width: 29
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8791d8954ff1b48aefffe2891a844e
+      internalID: -1741741670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_54
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 352
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6fb80b6cd431648a5f5500e536a4ad
+      internalID: -1860996487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_55
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 352
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560de5a932abef542bcf1f2ce1bee0af
+      internalID: 1002403350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_56
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 352
+        width: 4
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488fb6dd3b6c45f4697d9ca3fc233f98
+      internalID: -1094624090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_57
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 340
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6474cfaa6e6c7745a62a4a36655d58d
+      internalID: -1778673767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_58
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 340
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f7b2cfdc322fe41a3e8000847bde8a
+      internalID: -284426117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_59
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 341
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65d08b6f7cf8df41874dc91c37beedd
+      internalID: -1117103880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_60
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 288
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c67d5bcb6f1ba46a6c401d913b3675
+      internalID: -740639006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_61
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 264
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e94c7b573950bb45aee78527935efd8
+      internalID: 1496216779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_62
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 252
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d17837f593b47740a1e58548c4a147f
+      internalID: -1136508195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_63
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 212
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ead3d7b348b521499d2620b61cbd9dc
+      internalID: 435838609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_64
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 164
+        width: 4
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4af6d2a45950c408af474159da91a7
+      internalID: 545712389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_65
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 132
+        width: 4
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bb52466e9b16842b71fd711d17f819
+      internalID: 485839357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1f13cd23d41a745acf830c0d01b730
+      internalID: -520577386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_67
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 96
+        width: 32
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231271b101e243c459eae6e9b075cc5e
+      internalID: 1624050960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_68
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 96
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad98d707ec078814e9bd28217b891101
+      internalID: -1293235267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_69
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 96
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcce2e072046384480c697581c736ea
+      internalID: -36349029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_70
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 96
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a40579c13e57584390f0322dcb05fa2
+      internalID: 1759201587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_71
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 96
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0539a30073f1979408f4a1f414159e2e
+      internalID: -1598439042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_72
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 96
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b9516f41bcb954fb74911db41a13dc
+      internalID: -682544277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_73
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 96
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdbf3a34255d1c438f4d218dc8f113f
+      internalID: -2146520682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_74
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 96
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9876a32aa13174f901c56fb9105793
+      internalID: -544743853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_75
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 96
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c3e0fd39b3af5408af55eca6fc0a36
+      internalID: 47925807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: better walls, better stairs 1_76
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 96
+        width: 12
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a808e147551bf141a1f23884b658591
+      internalID: 1319239162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      better walls, better stairs 1_0: -62980737
+      better walls, better stairs 1_1: 571974217
+      better walls, better stairs 1_10: 942919761
+      better walls, better stairs 1_11: -1470395565
+      better walls, better stairs 1_12: 933847311
+      better walls, better stairs 1_13: -795765875
+      better walls, better stairs 1_14: -1290516086
+      better walls, better stairs 1_15: -1073745035
+      better walls, better stairs 1_16: -1815027559
+      better walls, better stairs 1_17: 1069918981
+      better walls, better stairs 1_18: -2115770051
+      better walls, better stairs 1_19: -639019627
+      better walls, better stairs 1_2: 633717470
+      better walls, better stairs 1_20: 1067837384
+      better walls, better stairs 1_21: -1626178767
+      better walls, better stairs 1_22: 750709769
+      better walls, better stairs 1_23: -1218398152
+      better walls, better stairs 1_24: -1019641020
+      better walls, better stairs 1_25: 936632026
+      better walls, better stairs 1_26: 754436779
+      better walls, better stairs 1_27: -1790783952
+      better walls, better stairs 1_28: 2020298681
+      better walls, better stairs 1_29: 902869429
+      better walls, better stairs 1_3: 113952393
+      better walls, better stairs 1_30: -178353358
+      better walls, better stairs 1_31: 651207689
+      better walls, better stairs 1_32: 212312846
+      better walls, better stairs 1_33: 1641901975
+      better walls, better stairs 1_34: 1976936220
+      better walls, better stairs 1_35: 2079339005
+      better walls, better stairs 1_36: 1078847266
+      better walls, better stairs 1_37: -517239936
+      better walls, better stairs 1_38: -1022393963
+      better walls, better stairs 1_39: -1290095462
+      better walls, better stairs 1_4: 922390324
+      better walls, better stairs 1_40: -302921512
+      better walls, better stairs 1_41: 1058573323
+      better walls, better stairs 1_42: -913023974
+      better walls, better stairs 1_43: 554195124
+      better walls, better stairs 1_44: -888994253
+      better walls, better stairs 1_45: -1959520003
+      better walls, better stairs 1_46: -1434800040
+      better walls, better stairs 1_47: 1360242468
+      better walls, better stairs 1_48: 2026682706
+      better walls, better stairs 1_49: -187276402
+      better walls, better stairs 1_5: 353697630
+      better walls, better stairs 1_50: -422956426
+      better walls, better stairs 1_51: 979263842
+      better walls, better stairs 1_52: 79586485
+      better walls, better stairs 1_53: -1741741670
+      better walls, better stairs 1_54: -1860996487
+      better walls, better stairs 1_55: 1002403350
+      better walls, better stairs 1_56: -1094624090
+      better walls, better stairs 1_57: -1778673767
+      better walls, better stairs 1_58: -284426117
+      better walls, better stairs 1_59: -1117103880
+      better walls, better stairs 1_6: -471592787
+      better walls, better stairs 1_60: -740639006
+      better walls, better stairs 1_61: 1496216779
+      better walls, better stairs 1_62: -1136508195
+      better walls, better stairs 1_63: 435838609
+      better walls, better stairs 1_64: 545712389
+      better walls, better stairs 1_65: 485839357
+      better walls, better stairs 1_66: -520577386
+      better walls, better stairs 1_67: 1624050960
+      better walls, better stairs 1_68: -1293235267
+      better walls, better stairs 1_69: -36349029
+      better walls, better stairs 1_7: -993851237
+      better walls, better stairs 1_70: 1759201587
+      better walls, better stairs 1_71: -1598439042
+      better walls, better stairs 1_72: -682544277
+      better walls, better stairs 1_73: -2146520682
+      better walls, better stairs 1_74: -544743853
+      better walls, better stairs 1_75: 47925807
+      better walls, better stairs 1_76: 1319239162
+      better walls, better stairs 1_8: -626963377
+      better walls, better stairs 1_9: 1623123678
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

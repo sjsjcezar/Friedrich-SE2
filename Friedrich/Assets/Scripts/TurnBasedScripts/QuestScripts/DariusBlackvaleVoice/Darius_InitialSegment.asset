@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ea7a4ea0ef17a44b98e6b0920aa5482, type: 3}
+  m_Name: Darius_InitialSegment
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - text: Ah, so you're the one they've summoned. The Hero from another world. How
+      quaint.
+    voiceClip: {fileID: 8300000, guid: 603b14854275bcb4e8ee1fdcaf0f01b5, type: 3}
+    textHighlight: 
+  - text: I am Captain Darius Blackvale, commander of the guard.
+    voiceClip: {fileID: 8300000, guid: 66ef1606624ed3c44b7c4aa189240972, type: 3}
+    textHighlight: Captain Darius Blackvale
+  - text: And while your sudden arrival is...
+    voiceClip: {fileID: 8300000, guid: 11fb8c6164a5ed04c83a7790f7f9f075, type: 3}
+    textHighlight: 
+  - text: Intriguing... Let's not get distracted by your origins.
+    voiceClip: {fileID: 8300000, guid: 2da24255c075a354c81bc4142d89aab5, type: 3}
+    textHighlight: 
+  - text: I'm sure you've heard of the demons that plague our land.
+    voiceClip: {fileID: 8300000, guid: 833dc48f1c5c90041b4f37d780888d58, type: 3}
+    textHighlight: 
+  - text: They are our most dangerous foes and they grow bolder by the day.
+    voiceClip: {fileID: 8300000, guid: 61c230fb039906f43a29ce93f4decbdc, type: 3}
+    textHighlight: 
+  - text: "There\u2019s a group of lesser demons \u2014 five in total \u2014 that
+      have been spotted outside the walls of Yggdrasil."
+    voiceClip: {fileID: 8300000, guid: b3e8f87fb1e5e974b85d46a1b4a53f74, type: 3}
+    textHighlight: lesser demons
+  - text: They've been causing trouble in the nearby woods.
+    voiceClip: {fileID: 8300000, guid: 386b6c340e6614e4a9d8fda3f9587049, type: 3}
+    textHighlight: 
+  - text: Nothing too dangerous, not for someone of your strength... I imagine.
+    voiceClip: {fileID: 8300000, guid: 0bd92a7d5bc33ac4bbcbb54143c60e1e, type: 3}
+    textHighlight: 
+  - text: 'Your first task will be to deal with them. Once you''ve completed the
+      task, come back to me. '
+    voiceClip: {fileID: 8300000, guid: e6749a6f7003c3c42883330cc4b9da3e, type: 3}
+    textHighlight: come back to me
+  - text: Use the Statue of Valkirith.. it's just outside the castle. It'll teleport
+      you straight to the woods
+    voiceClip: {fileID: 8300000, guid: a045b7c9da7402d4f9c375b1bd3b0b48, type: 3}
+    textHighlight: Statue of Valkirith

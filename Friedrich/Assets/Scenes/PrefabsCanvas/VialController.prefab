@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8689986745819478866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6663390676089932343}
+  - component: {fileID: 7876957780430636510}
+  m_Layer: 0
+  m_Name: VialController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6663390676089932343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8689986745819478866}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7876957780430636510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8689986745819478866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7281483ba4dbc74787d4d3e9fde090d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vialUIPanel: {fileID: 0}
+  flaskHealImage: {fileID: 0}
+  flaskManaImage: {fileID: 0}
+  counterForHeal: {fileID: 0}
+  counterForMana: {fileID: 0}
+  counter: {fileID: 0}
+  rightButtonMana: {fileID: 0}
+  leftButtonMana: {fileID: 0}
+  rightButtonHeal: {fileID: 0}
+  leftButtonHeal: {fileID: 0}
+  leaveButton: {fileID: 0}
+  allocateText: {fileID: 0}
+  maxVials: 3
+  remainingVialCount: 0

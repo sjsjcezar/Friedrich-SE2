@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ea7a4ea0ef17a44b98e6b0920aa5482, type: 3}
+  m_Name: EyndorDB1
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - text: "That\u2019s the question, isn\u2019t it? The leylines\u2014the very veins
+      of magic that run through Altus\u2014have grown unstable. "
+    voiceClip: {fileID: 8300000, guid: ceac19bfd0607ef4ba57821f31c8a95c, type: 3}
+    textHighlight: leylines
+  - text: "Such disturbances often herald the return of dark forces. The demons thrive
+      on chaos, and where there\u2019s chaos, they follow."
+    voiceClip: {fileID: 8300000, guid: a33364c16d93f4a4aa45af17420fe14e, type: 3}
+    textHighlight: 
+  - text: "But why now, after centuries of peace? That\u2019s what I\u2019m trying
+      to uncover."
+    voiceClip: {fileID: 8300000, guid: 330ecfecb88926340830c9a7829d5f77, type: 3}
+    textHighlight: 

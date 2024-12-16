@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22c8f2c006ac24d418b949eb6bab7573, type: 3}
+  m_Name: CaptainDarius
+  m_EditorClassIdentifier: 
+  npcID: DARIUS_BLACKVALE
+  npcName: Captain Darius Blackvale
+  title: Lesser Demon Captain Whatever
+  availableQuests:
+  - {fileID: 11400000, guid: d1da49d48dac61b4e81bf0cd7fb6cde5, type: 2}
+  - {fileID: 11400000, guid: 5968cc1570c87ba40ae7471c3c377d6b, type: 2}
+  npcImage: {fileID: 21300000, guid: 9f4f17431632c4b47a934d633ca8e7c6, type: 3}

@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1412c38bfb13ff4e9b6dc6bd5cd9bbd, type: 3}
+  m_Name: DariusDialogue 1
+  m_EditorClassIdentifier: 
+  npcName: Darius Blackvale
+  baseDialogue:
+    mainDialogue: {fileID: 0}
+    dialogueOptions:
+    - optionText: Why is this called Wyrmspire?
+      dialogueContent: {fileID: 11400000, guid: b66d9010019e8fb4db62d1a63f50ed11, type: 2}
+      nextDialogue: {fileID: 0}
+      requiredSegmentID: 
+      isQuestRelated: 0
+      hasBeenSelected: 1
+      isRepeatable: 1
+    - optionText: What do you do around here?
+      dialogueContent: {fileID: 11400000, guid: d565cf582aa841645b8e2938cba99708, type: 2}
+      nextDialogue: {fileID: 0}
+      requiredSegmentID: 
+      isQuestRelated: 0
+      hasBeenSelected: 1
+      isRepeatable: 1
+  questDialogues: []
+  questOptions:
+  - optionText: The King sent me here
+    dialogueContent: {fileID: 11400000, guid: fb0c06ea864a4ef478d4ab44c1c98bd1, type: 2}
+    nextDialogue: {fileID: 0}
+    requiredSegmentID: DariusInitial
+    isQuestRelated: 1
+    hasBeenSelected: 0
+    isRepeatable: 0
+  - optionText: I defeated the demons
+    dialogueContent: {fileID: 11400000, guid: f770c8c7d9b9b5b4986e6656dc31d6de, type: 2}
+    nextDialogue: {fileID: 0}
+    requiredSegmentID: DariusComplete
+    isQuestRelated: 1
+    hasBeenSelected: 0
+    isRepeatable: 0
+  - optionText: TestTestTestTest
+    dialogueContent: {fileID: 11400000, guid: c2032827cad0fc54e9ef8d7877bd6189, type: 2}
+    nextDialogue: {fileID: 0}
+    requiredSegmentID: Test_DariusTest
+    isQuestRelated: 1
+    hasBeenSelected: 0
+    isRepeatable: 0
+  greetings:
+  - {fileID: 11400000, guid: 9d58b13bab649ba46a2f936e9943b5a4, type: 2}
+  - {fileID: 11400000, guid: f7232cce8c55e274780528d070af886e, type: 2}
+  - {fileID: 11400000, guid: 2b098e26c39f7244e9727bb9dbd2c463, type: 2}
+  - {fileID: 11400000, guid: fb95382ff90065f4d80b7148efc9ae4d, type: 2}
+  - {fileID: 11400000, guid: e6c159d2634af2442ae7372c164dba52, type: 2}
+  - {fileID: 11400000, guid: 323fcec853a8d1841abc49caf441e827, type: 2}
+  - {fileID: 11400000, guid: f93a6f55db9073d4c8ae2eaae972ece6, type: 2}
+  - {fileID: 11400000, guid: 89cd410caa93fbf488e1b6187ffec4ff, type: 2}
+  - {fileID: 11400000, guid: d2339ab367a17cf458439526380ca87e, type: 2}
+  - {fileID: 11400000, guid: 3c48690ea9423c540bb32f7e9513a7d8, type: 2}
+  - {fileID: 11400000, guid: 682ba8652ac07a94b8d137c852480892, type: 2}
+  farewells:
+  - {fileID: 11400000, guid: bf9b12a89f51b024cb9238782a9e3c22, type: 2}
+  - {fileID: 11400000, guid: d83c71c1bdb50894da11173c9ccf596a, type: 2}
+  - {fileID: 11400000, guid: df5c8362b0159ba44a7faebe0be4745b, type: 2}
+  - {fileID: 11400000, guid: c9c42ca7d5c75364b8b80da503a72c97, type: 2}
+  - {fileID: 11400000, guid: a70f40ff9123e7444a3eaab3bb9f3817, type: 2}

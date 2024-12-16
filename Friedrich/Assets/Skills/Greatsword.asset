@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aca2f943e371f4587ffcc792d9cea1, type: 3}
+  m_Name: Greatsword
+  m_EditorClassIdentifier: 
+  weaponName: Greatsword
+  weaponType: 0
+  skills:
+  - {fileID: 11400000, guid: 8708749c1a29f8b408ddb7f9b23b3ebe, type: 2}
+  - {fileID: 11400000, guid: 1f85694337094614a97cc1ffe8de87ec, type: 2}
+  - {fileID: 11400000, guid: b003c0e7d1a44ce478e67b0bdb424581, type: 2}

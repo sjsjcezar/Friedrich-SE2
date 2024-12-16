@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb89d38f978f4c44c872ad281c64e145, type: 3}
+  m_Name: WarriorStats
+  m_EditorClassIdentifier: 
+  characterType: 1
+  baseDamage: 20
+  currentDamage: 20
+  Vitality: 225
+  maxVitality: 225
+  vitalityStat: 75
+  Power: 40
+  basePower: 0
+  Fortitude: 45
+  Intelligence: 105
+  maxIntelligence: 105
+  ArcaneStat: 35
+  PowerMultiplier: 1
+  Level: 1
+  currentCrystalsHeld: 352535
+  crystalsNeededForNextLevel: 400
+  equippedWeapon: {fileID: 0}

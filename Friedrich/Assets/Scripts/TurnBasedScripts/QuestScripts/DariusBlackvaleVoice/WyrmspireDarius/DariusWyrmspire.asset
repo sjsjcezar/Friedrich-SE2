@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ea7a4ea0ef17a44b98e6b0920aa5482, type: 3}
+  m_Name: DariusWyrmspire
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - text: Wyrmspire... is named after Eldric Blackthorn.
+    voiceClip: {fileID: 8300000, guid: fae5b41f6fe6f324dbb76c4dfeed8605, type: 3}
+    textHighlight: 
+  - text: 'He was a hero like you. Though not from another world. '
+    voiceClip: {fileID: 8300000, guid: 7f39add3d185da241b3951b951f6e86e, type: 3}
+    textHighlight: 
+  - text: Thousands of years ago, he faced the demons rampaging these very lands,
+      led by a lord who rode a fearsome dragon named Deathclaw.
+    voiceClip: {fileID: 8300000, guid: 72504e7d288cb364dbb15e8fe13550e7, type: 3}
+    textHighlight: 
+  - text: Blackthorn slew the beast, severing its head.
+    voiceClip: {fileID: 8300000, guid: d013d718ec43c4a4a91d0994ff9c3381, type: 3}
+    textHighlight: 
+  - text: That very head now hangs in this hall, behind the throne.
+    voiceClip: {fileID: 8300000, guid: a174f4e84014838438421f38de0f7324, type: 3}
+    textHighlight: 
+  - text: But now, the demons have returned, as if history itself is destined to
+      repeat.
+    voiceClip: {fileID: 8300000, guid: 4046793023b92474d85b3703fdcd8e53, type: 3}
+    textHighlight: 

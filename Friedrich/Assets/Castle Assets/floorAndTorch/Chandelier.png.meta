@@ -1,0 +1,1236 @@
+fileFormatVersion: 2
+guid: f5f2eaefc1201a04a8dd90396163a25c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chandelier_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1595
+        width: 302
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f642c1a10d432204e8c8a42be31db15e
+      internalID: 1288604475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_1
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1634
+        width: 289
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b00f7575b97f15448d8a71df51cb6a5
+      internalID: 1592415203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_2
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1602
+        width: 622
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45d1bd3f74ef69408d86f179d0ebd0a
+      internalID: -571610875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_3
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1670
+        width: 47
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aad060591174740992fc698f07f9f2
+      internalID: -829944687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_4
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1577
+        width: 315
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221b8a77990f72145ab4c63d104806d1
+      internalID: -465862021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_5
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1673
+        width: 37
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb46b5c1ad55dbb4ea5f4c4f5e99cb41
+      internalID: -1879710305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_6
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 1607
+        width: 299
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a92b688c6afb934d81b97f7ee7f030b
+      internalID: -1238150439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_7
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 801
+        width: 759
+        height: 851
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f9bd739b9d0504a8f80d5878bdec1e
+      internalID: -1682361386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_8
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1592
+        width: 152
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad0af7a0b20ae84b961e67e4b849994
+      internalID: -277539984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_9
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 1591
+        width: 54
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db16e7ff6b405714cb5f305465d9fe7f
+      internalID: -757314427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1197
+        width: 318
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fedd87ac93f4554bb10acc52eb08b83
+      internalID: -1946822845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_11
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1218
+        width: 68
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f4d7e6076d82c48b082cfd4fa1afdd
+      internalID: 1848356667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_12
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1216
+        width: 90
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145464852dc6a3a439a50ed4b0501973
+      internalID: 726121611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_13
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1197
+        width: 158
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e685ad3e99729c747af64e9324ea711e
+      internalID: -1233550634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_14
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1196
+        width: 18
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10c63012c2158143b78a37debb82a85
+      internalID: -394739230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_15
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 1184
+        width: 194
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a64a788471a98e43be3d24c55b29f88
+      internalID: 24279275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_16
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 1196
+        width: 273
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4738dd2e2ce4e6446af9b5660f42887b
+      internalID: -208160680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_17
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 823
+        width: 106
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa81b52348570d54fbf88e7335613852
+      internalID: 789817831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 868
+        width: 4
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4705d59b867eaf428a9e5200ed32ef9
+      internalID: 1637687810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_19
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 822
+        width: 81
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6635c461e3e83e74bbf764a91aafe33a
+      internalID: -1101580466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 824
+        width: 66
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396a94e428a0d7f4f8617ed5831a8d33
+      internalID: -1351695650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_21
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 822
+        width: 52
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3d0d0648c81ff4f9627f41a37fd3a9
+      internalID: -2140971513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_22
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 825
+        width: 86
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991216b4f1aed014393eb8e7ed4b81a8
+      internalID: 580898131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_23
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 823
+        width: 54
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ee798170cb1c3438cdb7232d4ed6dc
+      internalID: -2052934313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_24
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 820
+        width: 162
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fc0769262299841bdea4a2f613b942
+      internalID: 1285577628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_25
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 826
+        width: 261
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93da08282184574c958e81af9a62569
+      internalID: 912006089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_26
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 804
+        width: 29
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ceefeca38cac3459fe43b61e76c378
+      internalID: 120630652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_27
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 408
+        width: 344
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4310eedb3639c4498779debef496381
+      internalID: 1314004215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_28
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 440
+        width: 79
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d179248ef91c844794a78e3a2e90fc8
+      internalID: -970952158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_29
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 400
+        width: 129
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4638de3d62b7af04aaf8c1d9b54e868b
+      internalID: -1777160453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_30
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 436
+        width: 101
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf87f2957a487224a84766e4c531e538
+      internalID: 350540029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_31
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 436
+        width: 99
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d6db5aed23bed4bbd1036cdf3b0476
+      internalID: -84035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_32
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 752
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c644cee5927428e44a77aebc1c921021
+      internalID: -1723923280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_33
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 404
+        width: 299
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244753051517d494a96c802d4e7dc94e
+      internalID: 1030329077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_34
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 432
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0863384211724cf4c8cab77c6467efda
+      internalID: 2006907611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_35
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 409
+        width: 305
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0ee81d23a58ae4eabf5dfee92d2232
+      internalID: -1073934870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_36
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 442
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b7f35a26f27d64885e031d058e1bcf
+      internalID: 2075065664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_37
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 433
+        width: 314
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efa52b06b3aca140818eee2e66e8ed1
+      internalID: -411013823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_38
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 410
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe9d3d2fe132514a89c9e10cf2bdbb4
+      internalID: 1399108526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_39
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 409
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061a36dafc2236544ad32bd0470577ed
+      internalID: 1699997807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_40
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 402
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf76f3bb443c904fb9090a609166505
+      internalID: -2126448670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_41
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 402
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9de1d579527bf43981765c1a8a7e60
+      internalID: -2005382338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_42
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 34
+        width: 288
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87599dc30dcdc204194d8e3dec396a75
+      internalID: -875963349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_43
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 32
+        width: 282
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8a122e1db4bba408950ce1708ad0d6
+      internalID: 931535540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_44
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 19
+        width: 313
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea39d24b2d2d5b40878ec4b318c64bd
+      internalID: 42920283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_45
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 34
+        width: 314
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac83b0078ccae7d47929b8e26c97e29b
+      internalID: 419543511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_46
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1
+        width: 311
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9ec4a86bd3523429da4c52033ba454
+      internalID: -2024553434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_47
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 34
+        width: 262
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f99c1209d01ba4193659e6dbadd416
+      internalID: 308139899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_48
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 356
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4a9c721c4106c45bcd54965b704f3b
+      internalID: -1859039296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_49
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 142
+        width: 5
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85236362a2eca844ebe599ec2969615c
+      internalID: -67616746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chandelier_50
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 96
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b658ccb2eb46540822563052798759
+      internalID: 1775352146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Chandelier_0: 1288604475
+      Chandelier_1: 1592415203
+      Chandelier_10: -1946822845
+      Chandelier_11: 1848356667
+      Chandelier_12: 726121611
+      Chandelier_13: -1233550634
+      Chandelier_14: -394739230
+      Chandelier_15: 24279275
+      Chandelier_16: -208160680
+      Chandelier_17: 789817831
+      Chandelier_18: 1637687810
+      Chandelier_19: -1101580466
+      Chandelier_2: -571610875
+      Chandelier_20: -1351695650
+      Chandelier_21: -2140971513
+      Chandelier_22: 580898131
+      Chandelier_23: -2052934313
+      Chandelier_24: 1285577628
+      Chandelier_25: 912006089
+      Chandelier_26: 120630652
+      Chandelier_27: 1314004215
+      Chandelier_28: -970952158
+      Chandelier_29: -1777160453
+      Chandelier_3: -829944687
+      Chandelier_30: 350540029
+      Chandelier_31: -84035
+      Chandelier_32: -1723923280
+      Chandelier_33: 1030329077
+      Chandelier_34: 2006907611
+      Chandelier_35: -1073934870
+      Chandelier_36: 2075065664
+      Chandelier_37: -411013823
+      Chandelier_38: 1399108526
+      Chandelier_39: 1699997807
+      Chandelier_4: -465862021
+      Chandelier_40: -2126448670
+      Chandelier_41: -2005382338
+      Chandelier_42: -875963349
+      Chandelier_43: 931535540
+      Chandelier_44: 42920283
+      Chandelier_45: 419543511
+      Chandelier_46: -2024553434
+      Chandelier_47: 308139899
+      Chandelier_48: -1859039296
+      Chandelier_49: -67616746
+      Chandelier_5: -1879710305
+      Chandelier_50: 1775352146
+      Chandelier_6: -1238150439
+      Chandelier_7: -1682361386
+      Chandelier_8: -277539984
+      Chandelier_9: -757314427
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

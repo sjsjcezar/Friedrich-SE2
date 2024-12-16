@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1412c38bfb13ff4e9b6dc6bd5cd9bbd, type: 3}
+  m_Name: EyndorDialogues
+  m_EditorClassIdentifier: 
+  npcName: Eryndor Bludnymph
+  baseDialogue:
+    mainDialogue: {fileID: 0}
+    dialogueOptions:
+    - optionText: Why are the demons back?
+      dialogueContent: {fileID: 11400000, guid: b4e77eb6b3c64454c909a2f912286f84, type: 2}
+      nextDialogue: {fileID: 0}
+      requiredSegmentID: 
+      isQuestRelated: 0
+      hasBeenSelected: 0
+      isRepeatable: 1
+    - optionText: What do you do around here?
+      dialogueContent: {fileID: 11400000, guid: 8940c81d8d0d1584c947911382fe7b42, type: 2}
+      nextDialogue: {fileID: 0}
+      requiredSegmentID: 
+      isQuestRelated: 0
+      hasBeenSelected: 0
+      isRepeatable: 1
+  questDialogues: []
+  questOptions:
+  - optionText: I'm here.
+    dialogueContent: {fileID: 11400000, guid: 73625dbe11612cd4985625d5f79461b9, type: 2}
+    nextDialogue: {fileID: 0}
+    requiredSegmentID: EryndorInitial
+    isQuestRelated: 1
+    hasBeenSelected: 0
+    isRepeatable: 0
+  greetings:
+  - {fileID: 0}
+  farewells: []

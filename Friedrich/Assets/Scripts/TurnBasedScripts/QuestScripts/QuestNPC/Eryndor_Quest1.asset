@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ea19c9c8403d04aa09a70f10fff6bc, type: 3}
+  m_Name: Eryndor_Quest1
+  m_EditorClassIdentifier: 
+  questID: 3
+  title: Hero Errands
+  description: Lady Eryndor seeks the Hero for an important task.
+  questType: 0
+  requiredLevel: 1
+  prerequisiteQuests:
+  - {fileID: 11400000, guid: d1da49d48dac61b4e81bf0cd7fb6cde5, type: 2}
+  rewardType: 0
+  fateCrystalReward: 0
+  weaponPrefabReward: {fileID: 0}
+  segments:
+  - segmentName: Speak to Lady Eryndor
+    description: Lady Eryndor wishes to speak with you.
+    segmentID: EryndorInitial
+    requirementText: 
+    navigationHint: Lady Eryndor is in her quarters at Wyrmspire Hall.
+    completionType: 0
+    isCompleted: 0
+    targetNPCID: ERYNDOR_BLUDNYMPH
+    segmentDialogue: {fileID: 0}
+    targetLocationName: 
+    targetSceneName: 
+    locationReachDistance: 0
+    targetEnemyType: 0
+    requiredKills: 0
+    currentKills: 0
+  - segmentName: Thank you for playing
+    description: Thank you for playing
+    segmentID: 
+    requirementText: Thank you for playing! This is how far the game goes at the
+      moment.
+    navigationHint: Please wait for the latest update :)
+    completionType: 2
+    isCompleted: 0
+    targetNPCID: ERYNDOR_BLUDNYMPH
+    segmentDialogue: {fileID: 0}
+    targetLocationName: 
+    targetSceneName: SampleSceneS
+    locationReachDistance: 0
+    targetEnemyType: 0
+    requiredKills: 0
+    currentKills: 0
+  navigationHints: []
+  isMainQuest: 0
+  nextMainQuestInSequence: {fileID: 0}

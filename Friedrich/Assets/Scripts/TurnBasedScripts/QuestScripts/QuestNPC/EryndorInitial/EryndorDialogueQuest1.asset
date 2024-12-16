@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ea7a4ea0ef17a44b98e6b0920aa5482, type: 3}
+  m_Name: EryndorDialogueQuest1
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - text: Ah, you've arrived. I was beginning to wonder if Darius would send you
+      to me...
+    voiceClip: {fileID: 8300000, guid: c15a6ac924176f547a4aac98f01c226f, type: 3}
+    textHighlight: 
+  - text: No matter, you're here now and I have an important task for you.
+    voiceClip: {fileID: 8300000, guid: 64e986b1df9e5274d84df52f2497630b, type: 3}
+    textHighlight: 
+  - text: "I recently ordered a crystal ball from the mage\u2019s shop in the market
+      district. "
+    voiceClip: {fileID: 8300000, guid: b7338b00392058e418453f8feb507045, type: 3}
+    textHighlight: crystal ball
+  - text: "It\u2019s a delicate item, and I need it for my upcoming research. Unfortunately,
+      I\u2019m far too busy to fetch it myself."
+    voiceClip: {fileID: 8300000, guid: 64199cc6c3d330e4680942b2adac735b, type: 3}
+    textHighlight: speak with the proprietor
+  - text: You, however, seem perfectly suited for the errand. Head to the shop, speak
+      with the proprietor, and bring it back to me.
+    voiceClip: {fileID: 8300000, guid: 4bf7eafbde0072e4db2fff79eec67ff9, type: 3}
+    textHighlight: 
+  - text: " It should already be paid for\u2014just mention my name."
+    voiceClip: {fileID: 8300000, guid: 7a66d5e5a51f25442aadc9946f9b71d4, type: 3}
+    textHighlight: 
+  - text: "And please, don\u2019t dawdle. This artifact is vital. Time is a luxury
+      we cannot afford with the demons stirring once more. "
+    voiceClip: {fileID: 8300000, guid: 25fb4c6016f8d6349bfda25640e2a3d8, type: 3}
+    textHighlight: 
+  - text: "Be on your way. And safe travels, Hero. I\u2019ll be here when you return."
+    voiceClip: {fileID: 8300000, guid: 5b71cba0378c36b4fbf0ec5ae879af73, type: 3}
+    textHighlight: 

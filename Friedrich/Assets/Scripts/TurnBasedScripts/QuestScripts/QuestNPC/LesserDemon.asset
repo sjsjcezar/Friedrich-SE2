@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ea19c9c8403d04aa09a70f10fff6bc, type: 3}
+  m_Name: LesserDemon
+  m_EditorClassIdentifier: 
+  questID: 1
+  title: Whispers in the Wood
+  description: Darius seeks a capable hand to deal with some tasks.
+  questType: 0
+  requiredLevel: 1
+  prerequisiteQuests: []
+  rewardType: 0
+  fateCrystalReward: 500
+  weaponPrefabReward: {fileID: 7300960563540275380, guid: f6c59116d8004fa42b5c89400e00bdc5, type: 3}
+  segments:
+  - segmentName: Speak to Darius
+    description: Speak with Captain Darius Blackvale
+    segmentID: DariusInitial
+    requirementText: I should speak to Darius. He will fill me in with the details.
+    navigationHint: Captain Darius can be found in Wyrmspire Hall
+    completionType: 0
+    isCompleted: 0
+    targetNPCID: DARIUS_BLACKVALE
+    segmentDialogue: {fileID: 0}
+    targetLocationName: 
+    targetSceneName: 
+    locationReachDistance: 0
+    targetEnemyType: 0
+    requiredKills: 5
+    currentKills: 0
+  - segmentName: Find the Demon's Camp
+    description: Travel to the Outskirts of Yggdrasil
+    segmentID: DariusSecond
+    requirementText: I should travel to the forest that Darius has mentioned.
+    navigationHint: Darius said to use the statue just outside the castle.
+    completionType: 2
+    isCompleted: 0
+    targetNPCID: DARIUS_BLACKVALE
+    segmentDialogue: {fileID: 0}
+    targetLocationName: 
+    targetSceneName: SampleScene
+    locationReachDistance: 5
+    targetEnemyType: 0
+    requiredKills: 5
+    currentKills: 0
+  - segmentName: Eliminate Demons
+    description: Defeat the Demons
+    segmentID: 
+    requirementText: Defeat 5 Lesser Demons.
+    navigationHint: Lesser Demons can be found in this area.
+    completionType: 1
+    isCompleted: 0
+    targetNPCID: DARIUS_BLACKVALE
+    segmentDialogue: {fileID: 0}
+    targetLocationName: 
+    targetSceneName: SampleScene
+    locationReachDistance: 5
+    targetEnemyType: 2
+    requiredKills: 5
+    currentKills: 19
+  - segmentName: Report Back to Darius
+    description: Report your success to Captain Darius
+    segmentID: DariusComplete
+    requirementText: Report your success to Captain Darius.
+    navigationHint: Darius can be found in the Wyrmspire Hall.
+    completionType: 0
+    isCompleted: 0
+    targetNPCID: DARIUS_BLACKVALE
+    segmentDialogue: {fileID: 0}
+    targetLocationName: 
+    targetSceneName: 
+    locationReachDistance: 5
+    targetEnemyType: 2
+    requiredKills: 5
+    currentKills: 1
+  navigationHints: []
+  isMainQuest: 1
+  nextMainQuestInSequence: {fileID: 11400000, guid: e37eaf1647e289e4fb5aae5b8b415057, type: 2}

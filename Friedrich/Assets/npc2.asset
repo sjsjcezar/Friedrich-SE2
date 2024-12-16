@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb89d38f978f4c44c872ad281c64e145, type: 3}
+  m_Name: npc2
+  m_EditorClassIdentifier: 
+  characterType: 0
+  baseDamage: 15
+  currentDamage: 15
+  Vitality: 0
+  maxVitality: 180
+  vitalityStat: 60
+  Power: 30
+  basePower: 0
+  Fortitude: 35
+  Intelligence: 0
+  maxIntelligence: 0
+  ArcaneStat: 70
+  PowerMultiplier: 1
+  Level: 1
+  currentCrystalsHeld: 0
+  crystalsNeededForNextLevel: 400
+  equippedWeapon: {fileID: 0}

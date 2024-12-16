@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2aca2f943e371f4587ffcc792d9cea1, type: 3}
+  m_Name: LesserGreatswordV2
+  m_EditorClassIdentifier: 
+  weaponName: Lesser Greatsword V2
+  weaponType: 0
+  skills: []
+  damage: 55
+  powerBonus: 4
+  compatibleCharacterTypes: 01000000
+  weaponPrefab: {fileID: 228547056715300899, guid: 5236abd35cdda6e4f85aa72c1975c3f8, type: 3}
