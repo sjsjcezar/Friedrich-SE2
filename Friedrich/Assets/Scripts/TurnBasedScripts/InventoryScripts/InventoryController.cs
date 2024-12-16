@@ -364,33 +364,43 @@ public bool DeductFateCrystals(int amount)
         return prefab;
     }
 
-    public void AddPurchasedItemToInventory(GameObject itemPrefab)
+public void AddPurchasedItemToInventory(GameObject itemPrefab)
+{
+    if (itemPrefab == null)
     {
-        if (itemPrefab == null)
+        Debug.LogError("Attempted to add a null prefab to the inventory.");
+        return;
+    }
+
+    // Check if the item already exists in the inventory
+    foreach (Transform child in inventoryPanel.transform)
+    {
+        Slot slot = child.GetComponent<Slot>();
+        if (slot != null && slot.currentItem != null && slot.currentItem.name == itemPrefab.name)
         {
-            Debug.LogError("Attempted to add a null prefab to the inventory.");
+            Debug.Log($"Item {itemPrefab.name} already exists in inventory.");
+            return; // Item already exists, no need to add again
+        }
+    }
+
+    // Look for the first empty slot to add the new item
+    foreach (Transform child in inventoryPanel.transform)
+    {
+        Slot slot = child.GetComponent<Slot>();
+        if (slot != null && slot.currentItem == null)
+        {
+            // Instantiate the item prefab in the slot
+            GameObject item = Instantiate(itemPrefab, slot.transform);
+            item.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
+            slot.currentItem = item;
+            Debug.Log($"Added '{itemPrefab.name}' to inventory.");
             return;
         }
-
-        foreach (Transform child in inventoryPanel.transform)
-        {
-            Slot slot = child.GetComponent<Slot>();
-            if (slot != null && slot.currentItem == null)
-            {
-                // Instantiate the item and add it to the slot
-                GameObject item = Instantiate(itemPrefab, slot.transform);
-                item.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
-                slot.currentItem = item;
-
-                // Log the success
-                Debug.Log($"Added '{itemPrefab.name}' to inventory.");
-                return;
-            }
-        }
-
-        // If no slots are available
-        Debug.LogWarning("Inventory is full! Cannot add item.");
     }
+
+    // If no empty slots are available, show a warning
+    Debug.LogWarning("Inventory is full! Cannot add the item.");
+}
 
 
     private GameObject FindItemPrefab(string itemName)
