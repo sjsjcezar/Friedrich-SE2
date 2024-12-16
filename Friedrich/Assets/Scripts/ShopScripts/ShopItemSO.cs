@@ -6,6 +6,7 @@ public class ShopItemSO : ScriptableObject
     public string title;  // This will be auto-populated from WeaponSO
     public int baseCost;
     public GameObject weaponPrefabs;  // This should have WeaponItem component with WeaponSO reference
+    public Button purchaseButton;
 
     // Helper function to setup from WeaponSO
     public void SetupFromWeaponSO(WeaponSO weaponSO, int cost)
@@ -15,6 +16,7 @@ public class ShopItemSO : ScriptableObject
             title = weaponSO.weaponName;
             baseCost = cost;
             weaponPrefabs = weaponSO.weaponPrefab;
+            button = purchaseButton;
         }
     }
 }
