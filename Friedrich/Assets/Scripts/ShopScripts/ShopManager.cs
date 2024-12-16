@@ -12,7 +12,7 @@ public class ShopManager : MonoBehaviour
     public ShopItemSO[] shopItemSO;
     public GameObject[] shopPanelsGO;
     public ShopTemplate[] shopPanels;
-    // public Button[] myPurchaseBtns;
+    public Button[] myPurchaseBtns;
     // public GameObject[] weaponPrefabs; // Reference to weapon prefab
     public GameObject shopUI;
     public PlayerStats playerStats; // Reference to PlayerStats script
@@ -36,23 +36,27 @@ public Button leaveButton; // Reference to the "Leave" button in the shop UI
 }
     void Start()
     {
-// Assign button listeners based on ShopItemSO
-        foreach (var item in shopItemSO)
-        {
-            if (item.purchaseButton != null)
-            {
-                item.purchaseButton.onClick.AddListener(() => PurchaseItem(item));
-            }
-        }
+    for (int i = 0; i < myPurchaseBtns.Length; i++)
+    {
+        int index = i;  // Capture the correct index for the button
 
+        // Add a listener for each button, passing the correct index
+        myPurchaseBtns[i].onClick.AddListener(() =>
+        {
+            Debug.Log($"Button {index} clicked!");  // Debug to confirm which button was clicked
+            PurchaseItem(index);  // Pass the correct index to the PurchaseItem method
+        });
+    }
         leaveButton.onClick.AddListener(CloseShop);
+        for (int i = 0; i < shopItemSO.Length; i++)
+            shopPanelsGO[i].SetActive(true); 
         UpdateFateCrystalsUI();
         LoadPanels();
         CheckPurchasable();
         shopUI.SetActive(false);
     }
 
-    /*public void CheckPurchasable()
+    public void CheckPurchasable()
     {
         for (int i = 0; i < shopItemSO.Length; i++)
         {
@@ -61,20 +65,9 @@ public Button leaveButton; // Reference to the "Leave" button in the shop UI
             else
                 myPurchaseBtns[i].interactable = false;
         }
-    } */
-
-        public void CheckPurchasable()
-    {
-        foreach (var item in shopItemSO)
-        {
-            if (item.purchaseButton != null)
-            {
-                item.purchaseButton.interactable = playerStats.currentCrystalsHeld >= item.baseCost;
-            }
-        }
     }
 
-    /*public void PurchaseItem(int btnNo)
+    public void PurchaseItem(int btnNo)
 {
     int itemCost = shopItemSO[btnNo].baseCost;
     Debug.Log($"Item selected: {shopItemSO[btnNo].title}, Cost: {itemCost}");
@@ -112,32 +105,8 @@ public Button leaveButton; // Reference to the "Leave" button in the shop UI
     {
         Debug.LogWarning($"Not enough Fate Crystals to purchase {shopItemSO[btnNo].title}. Current Crystals: {playerStats.currentCrystalsHeld}, Cost: {itemCost}");
     }
-}*/
+}
 
-public void PurchaseItem(ShopItemSO item)
-    {
-        if (playerStats.currentCrystalsHeld >= item.baseCost)
-        {
-            playerStats.currentCrystalsHeld -= item.baseCost;
-            UpdateFateCrystalsUI();
-
-            if (item.weaponPrefabs != null)
-            {
-                InventoryController.Instance.AddPurchasedItemToInventory(item.weaponPrefabs);
-                Debug.Log($"Added {item.title} to inventory.");
-            }
-            else
-            {
-                Debug.LogWarning($"No weapon prefab assigned for {item.title}.");
-            }
-
-            CheckPurchasable();
-        }
-        else
-        {
-            Debug.LogWarning($"Not enough Fate Crystals to purchase {item.title}. Cost: {item.baseCost}");
-        }
-    }
 
     public void LoadPanels()
     {

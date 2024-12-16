@@ -685,9 +685,6 @@ MonoBehaviour:
   shopPanels:
   - {fileID: 237478524}
   - {fileID: 486463533}
-  myPurchaseBtns:
-  - {fileID: 1363235266}
-  - {fileID: 486463532}
   shopUI: {fileID: 109662610}
   playerStats: {fileID: 11400000, guid: 0b7c6d245fa1abd44a842a8d6e209c4c, type: 2}
   leaveButton: {fileID: 467782791}
@@ -2781,17 +2778,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
---- !u!114 &486463532 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5214455848762921545, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
-  m_PrefabInstance: {fileID: 486463531}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &486463533 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5143395522390635749, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
@@ -13322,17 +13308,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
---- !u!114 &1363235266 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5214455848762921545, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
-  m_PrefabInstance: {fileID: 1363235265}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1386854077
 GameObject:
   m_ObjectHideFlags: 0
