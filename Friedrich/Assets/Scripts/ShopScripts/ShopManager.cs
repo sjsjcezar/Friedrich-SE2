@@ -9,14 +9,14 @@ public class ShopManager : MonoBehaviour
 
     public static ShopManager instance;
     public TMP_Text fateCrystalsUI;
-    //public ShopItemSO[] shopItemSO;
+    public ShopItemSO[] shopItemSO;
     public GameObject[] shopPanelsGO;
     public ShopTemplate[] shopPanels;
-    
-    
+    public Button[] myPurchaseBtns;
+    // public GameObject[] weaponPrefabs; // Reference to weapon prefab
     public GameObject shopUI;
     public PlayerStats playerStats; // Reference to PlayerStats script
-    public Button leaveButton; // Reference to the "Leave" button in the shop UI
+public Button leaveButton; // Reference to the "Leave" button in the shop UI
     public CanvasGroup shopCanvasGroup; // CanvasGroup for fading effect
 
     // Add reference to the BlacksmithInteraction script
@@ -36,63 +36,76 @@ public class ShopManager : MonoBehaviour
 }
     void Start()
     {
-    
+    for (int i = 0; i < myPurchaseBtns.Length; i++)
+    {
+        int index = i;  // Capture the correct index for the button
+
+        // Add a listener for each button, passing the correct index
+        myPurchaseBtns[i].onClick.AddListener(() =>
+        {
+            Debug.Log($"Button {index} clicked!");  // Debug to confirm which button was clicked
+            PurchaseItem(index);  // Pass the correct index to the PurchaseItem method
+        });
+    }
         leaveButton.onClick.AddListener(CloseShop);
-        //for (int i = 0; i < shopItemSO.Length; i++)
-            //shopPanelsGO[i].SetActive(true); 
+        for (int i = 0; i < shopItemSO.Length; i++)
+            shopPanelsGO[i].SetActive(true); 
         UpdateFateCrystalsUI();
         LoadPanels();
         CheckPurchasable();
         shopUI.SetActive(false);
     }
 
-public void CheckPurchasable()
-{
-    foreach (var panel in shopPanels)  // Assuming shopPanels is a collection of ShopTemplate
+    public void CheckPurchasable()
     {
-        if (panel.shopItem != null && panel.purchaseButton != null)
+        for (int i = 0; i < shopItemSO.Length; i++)
         {
-            panel.purchaseButton.interactable = playerStats.currentCrystalsHeld >= panel.shopItem.baseCost;
+            if (playerStats.currentCrystalsHeld >= shopItemSO[i].baseCost)
+                myPurchaseBtns[i].interactable = true;
+            else
+                myPurchaseBtns[i].interactable = false;
+        }
+    }
+
+    public void PurchaseItem(int btnNo)
+{
+    int itemCost = shopItemSO[btnNo].baseCost;
+    Debug.Log($"Item selected: {shopItemSO[btnNo].title}, Cost: {itemCost}");
+
+    // Check if the player has enough Fate Crystals
+    if (playerStats.currentCrystalsHeld >= itemCost)
+    {
+        Debug.Log($"Enough Fate Crystals to purchase {shopItemSO[btnNo].title}. Current Crystals: {playerStats.currentCrystalsHeld}");
+
+        // Deduct the cost from PlayerStats
+        playerStats.currentCrystalsHeld -= itemCost;
+
+        // Log the new crystal count
+        Debug.Log($"New Fate Crystals: {playerStats.currentCrystalsHeld}");
+
+        // Update the UI
+        UpdateFateCrystalsUI();
+
+        // Add the purchased weapon to the inventory
+        GameObject weaponPrefab = shopItemSO[btnNo].weaponPrefabs;
+        if (weaponPrefab != null)
+        {
+            InventoryController.Instance.AddPurchasedItemToInventory(weaponPrefab);
+            Debug.Log($"Added {shopItemSO[btnNo].title} to inventory.");
         }
         else
         {
-            Debug.LogError("ShopItem or PurchaseButton is null for panel: " + panel.name);
+            Debug.LogWarning($"No weapon prefab assigned for {shopItemSO[btnNo].title}.");
         }
+
+        // Update purchasable UI elements
+        CheckPurchasable();
+    }
+    else
+    {
+        Debug.LogWarning($"Not enough Fate Crystals to purchase {shopItemSO[btnNo].title}. Current Crystals: {playerStats.currentCrystalsHeld}, Cost: {itemCost}");
     }
 }
-
-    public void PurchaseItem(ShopItemSO item)
-    {
-        if (item == null)
-        {
-            Debug.LogError("Attempted to purchase a null ShopItemSO.");
-            return;
-        }
-
-        // Check if player has enough crystals
-        if (playerStats.currentCrystalsHeld >= item.baseCost)
-        {
-            playerStats.currentCrystalsHeld -= item.baseCost; // Deduct cost
-            UpdateFateCrystalsUI();
-
-            // Add item to inventory
-            if (item.weaponPrefabs != null)
-            {
-                InventoryController.Instance.AddPurchasedItemToInventory(item.weaponPrefabs);
-                Debug.Log($"Purchased '{item.title}' and added it to the inventory.");
-            }
-            else
-            {
-                Debug.LogWarning($"No weapon prefab assigned for '{item.title}'.");
-            }
-
-            CheckPurchasable(); // Update button interactability
-        }
-        else
-        {
-            Debug.LogWarning($"Not enough Fate Crystals to purchase '{item.title}'. Cost: {item.baseCost}, Available: {playerStats.currentCrystalsHeld}");
-        }
-    }
 
 
     public void LoadPanels()
