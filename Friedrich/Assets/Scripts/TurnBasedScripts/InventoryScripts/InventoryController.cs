@@ -364,7 +364,7 @@ public bool DeductFateCrystals(int amount)
         return prefab;
     }
 
-    public void AddPurchasedItemToInventory(GameObject itemPrefab)
+    /*public void AddPurchasedItemToInventory(GameObject itemPrefab)
     {
         if (itemPrefab == null)
         {
@@ -390,6 +390,41 @@ public bool DeductFateCrystals(int amount)
 
         // If no slots are available
         Debug.LogWarning("Inventory is full! Cannot add item.");
+    }*/
+
+    public void AddPurchasedItemToInventory(GameObject itemPrefab)
+{
+    if (itemPrefab == null)
+    {
+        Debug.LogError("Attempted to add a null prefab to the inventory.");
+        return;
+    }
+
+    // Check if the item already exists in the inventory
+    foreach (Transform child in inventoryPanel.transform)
+    {
+        Slot slot = child.GetComponent<Slot>();
+        if (slot != null && slot.currentItem != null && slot.currentItem.name == itemPrefab.name)
+        {
+            Debug.Log($"Item {itemPrefab.name} already exists in inventory.");
+            return; // Item already exists, no need to add again
+        }
+    }
+
+    // Look for the first empty slot to add the new item
+    foreach (Transform child in inventoryPanel.transform)
+    {
+        Slot slot = child.GetComponent<Slot>();
+        if (slot != null && slot.currentItem == null)
+        {
+            // Instantiate the item prefab in the slot
+            GameObject item = Instantiate(itemPrefab, slot.transform); // Instantiate the weapon
+            item.GetComponent<RectTransform>().anchoredPosition = Vector2.zero; // Position it at the center of the slot
+
+            slot.currentItem = item; // Set the item to the slot's current item
+            Debug.Log($"Added '{itemPrefab.name}' to inventory.");
+            return;
+        }
     }
 
 
