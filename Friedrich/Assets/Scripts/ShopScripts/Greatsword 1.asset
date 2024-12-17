@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: Lesser Greatsword V2 Variant
   baseCost: 1000
-  weaponPrefabs: {fileID: 228547056715300899, guid: 41d7dff095bfe01488378ff92bfd2e6a, type: 3}
+  weaponPrefabs: {fileID: 6228631118282993394, guid: e182f31271434f84687d546634687951, type: 3}

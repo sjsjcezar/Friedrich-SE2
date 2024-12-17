@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e9014b5130885048a9c52dda91c65a6, type: 3}
-  m_Name: Greatsword
+  m_Name: Ashen Oathblade
   m_EditorClassIdentifier: 
-  title: 
-  baseCost: 500
-  weaponPrefabs: {fileID: 7300960563540275380, guid: f6c59116d8004fa42b5c89400e00bdc5, type: 3}
+  title: Ashen Oathblade
+  baseCost: 1500
+  weaponPrefabs: {fileID: 5468558455678936283, guid: 8415a70969602b04e977cb389de6802f, type: 3}

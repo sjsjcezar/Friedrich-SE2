@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e9014b5130885048a9c52dda91c65a6, type: 3}
-  m_Name: Greatsword
+  m_Name: Bloodveil Reaver
   m_EditorClassIdentifier: 
-  title: 
-  baseCost: 500
-  weaponPrefabs: {fileID: 7300960563540275380, guid: f6c59116d8004fa42b5c89400e00bdc5, type: 3}
+  title: Bloodveil Reaver
+  baseCost: 2000
+  weaponPrefabs: {fileID: 369295599972205726, guid: 410b9195e23bc2d499db32fa5af80243, type: 3}

@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e9014b5130885048a9c52dda91c65a6, type: 3}
-  m_Name: Greatsword
+  m_Name: Dreadforged Claymore
   m_EditorClassIdentifier: 
-  title: 
+  title: 'Dreadforged Claymore '
   baseCost: 500
-  weaponPrefabs: {fileID: 7300960563540275380, guid: f6c59116d8004fa42b5c89400e00bdc5, type: 3}
+  weaponPrefabs: {fileID: 2650538830378974724, guid: 7a05c63d86c05154dbff42cdb940cc80, type: 3}

@@ -14,6 +14,8 @@ public class ShopTemplate : MonoBehaviour
     private GameObject weaponPrefab;
     public ShopItemSO shopItem;
 
+    public Button purchaseButton; 
+
     public void SetupShopItem(ShopItemSO shopItem)
     {
         if (shopItem == null) return;
@@ -40,9 +42,24 @@ public class ShopTemplate : MonoBehaviour
                     weaponImage.sprite = prefabImage.sprite;
                 }
             }
+
+            purchaseButton.onClick.RemoveAllListeners();
+            purchaseButton.onClick.AddListener(() => ShopManager.instance.PurchaseItem(shopItem));
         }
     }
 
+   public void OnPurchase()
+    {
+        if (ShopManager.instance != null)
+        {
+            ShopManager.instance.PurchaseItem(shopItem);
+        }
+        else
+        {
+            Debug.LogError("ShopManager instance is not found!");
+        }
+    }
+    
     public WeaponSO GetWeaponSO()
     {
         return weaponSO;
