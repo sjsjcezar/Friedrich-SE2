@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.35, y: 2.81, z: 0}
-  m_LocalScale: {x: 1.0265, y: 1.0265, z: 1.0265}
+  m_LocalScale: {x: 1.5504816, y: 1.5504816, z: 1.5504816}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -102,11 +102,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   statueUIPanel: {fileID: 0}
+  interactPanel: {fileID: 0}
+  interactText: {fileID: 0}
   teleportButton: {fileID: 0}
   levelUpButton: {fileID: 0}
   vialsButton: {fileID: 0}
   upgradeSpellsButton: {fileID: 0}
   leaveButton: {fileID: 0}
+  teleport2Button: {fileID: 0}
   textWherePlayerIs: {fileID: 0}
   teleportOptionsPanel: {fileID: 0}
   yggdrasilButton: {fileID: 0}
@@ -114,6 +117,13 @@ MonoBehaviour:
   outskirtsButton: {fileID: 0}
   outskirtsGreyedOutPanel: {fileID: 0}
   backButton: {fileID: 0}
+  tpGreyedOutPanel: {fileID: 0}
+  teleport2OptionsPanel: {fileID: 0}
+  castleButton: {fileID: 0}
+  castleGreyedOutPanel: {fileID: 0}
+  blacksmithButton: {fileID: 0}
+  blacksmithGreyedOutPanel: {fileID: 0}
+  back2Button: {fileID: 0}
   levelUpPanel: {fileID: 0}
   levelUpCounterText: {fileID: 0}
   currentCrystalCounterText: {fileID: 0}
@@ -136,6 +146,8 @@ MonoBehaviour:
   blackScreenDuration: 1
   fadeImage: {fileID: 0}
   fadeDuration: 0.2
+  leftTransitionPanel: {fileID: 0}
+  rightTransitionPanel: {fileID: 0}
 --- !u!114 &5949451908378816806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,6 +162,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPoints:
   - {fileID: 11400000, guid: 42fc3b6e5ee25b34ca807041525091aa, type: 2}
+  - {fileID: 11400000, guid: 2ab538059fcf7434cb1dcab8ab4a3409, type: 2}
+  - {fileID: 11400000, guid: 8638563065923914aac70cc5443478dd, type: 2}
+  - {fileID: 11400000, guid: 20d675fb68dc4334d897bc5aa36a376e, type: 2}
+  - {fileID: 11400000, guid: 900400fd24d577b4eba7cad8a04d1f18, type: 2}
 --- !u!61 &4486371804682199494
 BoxCollider2D:
   m_ObjectHideFlags: 0

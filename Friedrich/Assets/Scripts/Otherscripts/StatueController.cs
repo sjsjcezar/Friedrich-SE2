@@ -36,6 +36,7 @@ public class StatueController : MonoBehaviour
     public Button outskirtsButton;
     public GameObject outskirtsGreyedOutPanel;
     public Button backButton;
+    public GameObject teleport2GreyedOutPanel;
 
     [Header("Teleport2 UI Elements")]
     public GameObject teleport2OptionsPanel;
@@ -252,59 +253,44 @@ public class StatueController : MonoBehaviour
     {
         string currentScene = SceneManager.GetActiveScene().name;
 
-        if (currentScene.Equals("CastleInterior", System.StringComparison.OrdinalIgnoreCase))
+        // First handle the Teleport 2 Button state based on scene
+        if (currentScene.Equals("SampleScene", System.StringComparison.OrdinalIgnoreCase))
         {
-            // Disable castle button and show greyed panel
-            castleButton.interactable = false;
-            SetButtonTextColor(castleButton, Color.gray);
+            // Disable Teleport 2 Button in SampleScene
+            teleport2Button.interactable = false;
+            SetButtonTextColor(teleport2Button, Color.gray);
+            if (teleport2GreyedOutPanel != null)
+                teleport2GreyedOutPanel.SetActive(true);
+
+            if (textWherePlayerIs != null)
+            textWherePlayerIs.color = Color.white;
+
             if (castleGreyedOutPanel != null)
                 castleGreyedOutPanel.SetActive(true);
-
-            // Enable blacksmith button and hide greyed panel
-            blacksmithButton.interactable = true;
-            SetButtonTextColor(blacksmithButton, Color.white);
-            if (blacksmithGreyedOutPanel != null)
-                blacksmithGreyedOutPanel.SetActive(false);
-
-            // Update location text color
-            if (textWherePlayerIs != null)
-                textWherePlayerIs.color = Color.white;
-        }
-        else if (currentScene.Equals("BlacksmithInterior", System.StringComparison.OrdinalIgnoreCase))
-        {
-            // Enable Yggdrasil button and hide greyed panel
-            castleButton.interactable = true;
-            SetButtonTextColor(castleButton, Color.white);
-            if (castleGreyedOutPanel != null)
-                castleGreyedOutPanel.SetActive(false);
-
-            // Disable blacksmith button and show greyed panel
-            blacksmithButton.interactable = false;
-            SetButtonTextColor(blacksmithButton, Color.gray);
             if (blacksmithGreyedOutPanel != null)
                 blacksmithGreyedOutPanel.SetActive(true);
-
-            // Update location text color
-            if (textWherePlayerIs != null)
-                textWherePlayerIs.color = Color.white;
         }
-        else
+        else if (currentScene.Equals("YggdrasilSampleScene", System.StringComparison.OrdinalIgnoreCase))
         {
-            // Enable both buttons and hide greyed panels
-            castleButton.interactable = true;
-            blacksmithButton.interactable = true;
-            SetButtonTextColor(castleButton, Color.white);
-            SetButtonTextColor(blacksmithButton, Color.white);
+            // Enable Teleport 2 Button in other scenes
+            teleport2Button.interactable = true;
+            SetButtonTextColor(teleport2Button, Color.white);
+            if (teleport2GreyedOutPanel != null)
+                teleport2GreyedOutPanel.SetActive(false);
+
+            if (textWherePlayerIs != null)
+            textWherePlayerIs.color = Color.white;
             
             if (castleGreyedOutPanel != null)
                 castleGreyedOutPanel.SetActive(false);
             if (blacksmithGreyedOutPanel != null)
                 blacksmithGreyedOutPanel.SetActive(false);
-
-            // Update location text color
-            if (textWherePlayerIs != null)
-                textWherePlayerIs.color = Color.white;
         }
+
+
+        // Update location text color
+        if (textWherePlayerIs != null)
+            textWherePlayerIs.color = Color.white;
     }
 
     private void SetButtonTextColor(Button button, Color color)
