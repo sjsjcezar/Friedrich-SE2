@@ -1248,7 +1248,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -16076,6 +16076,7 @@ MonoBehaviour:
   battleMusic: {fileID: 8300000, guid: 4b1970bdae149164d8fac874f71e5fbb, type: 3}
   rapidAssaultMusic: {fileID: 8300000, guid: 70166b7d33dc359448fe5becfdb30257, type: 3}
   slashSound: {fileID: 8300000, guid: 888e5801cdafa0644b7f3a8f6237ed0c, type: 3}
+  thunderSound: {fileID: 0}
   fadeSpeed: 1
 --- !u!4 &1821464476
 Transform:

@@ -70046,6 +70046,7 @@ MonoBehaviour:
   battleMusic: {fileID: 8300000, guid: 4b1970bdae149164d8fac874f71e5fbb, type: 3}
   rapidAssaultMusic: {fileID: 8300000, guid: 70166b7d33dc359448fe5becfdb30257, type: 3}
   slashSound: {fileID: 8300000, guid: 888e5801cdafa0644b7f3a8f6237ed0c, type: 3}
+  thunderSound: {fileID: 8300000, guid: aba979b1f28c70a45ad5f04b36897eae, type: 3}
   fadeSpeed: 1
 --- !u!4 &1343442482
 Transform:

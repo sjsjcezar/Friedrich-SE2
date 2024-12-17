@@ -332,6 +332,7 @@ public class PlayerSkillManager : MonoBehaviour
                 {
                     hackingSlashFeedback.IncrementHit();
                     hackingSlashHitCount++;
+                    AudioManager.Instance.PlaySlashSound();
                     hackingSlashFeedback.OnSpacePressedHack();
 
                     CameraShake.instance.TriggerCameraShake(impulseSource);
