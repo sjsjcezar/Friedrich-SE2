@@ -27126,7 +27126,6 @@ GameObject:
   m_Component:
   - component: {fileID: 684548710}
   - component: {fileID: 684548712}
-  - component: {fileID: 684548711}
   m_Layer: 0
   m_Name: TorchRightPilar1
   m_TagString: Untagged
@@ -27149,18 +27148,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1669957086}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &684548711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 684548709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5d2a05e071628a45a84e103686b17d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &684548712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27355,7 +27342,6 @@ GameObject:
   m_Component:
   - component: {fileID: 711658644}
   - component: {fileID: 711658646}
-  - component: {fileID: 711658645}
   m_Layer: 0
   m_Name: TorchBridgeRight (1)
   m_TagString: Untagged
@@ -27378,18 +27364,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1669957086}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &711658645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711658643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5d2a05e071628a45a84e103686b17d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &711658646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32573,6 +32547,7 @@ MonoBehaviour:
   battleMusic: {fileID: 8300000, guid: 4b1970bdae149164d8fac874f71e5fbb, type: 3}
   rapidAssaultMusic: {fileID: 8300000, guid: 70166b7d33dc359448fe5becfdb30257, type: 3}
   slashSound: {fileID: 8300000, guid: 888e5801cdafa0644b7f3a8f6237ed0c, type: 3}
+  thunderSound: {fileID: 0}
   fadeSpeed: 1
 --- !u!4 &786029419
 Transform:
@@ -32601,7 +32576,6 @@ GameObject:
   m_Component:
   - component: {fileID: 824348735}
   - component: {fileID: 824348737}
-  - component: {fileID: 824348736}
   m_Layer: 0
   m_Name: TorchDoorLeft
   m_TagString: Untagged
@@ -32624,18 +32598,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1669957086}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &824348736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824348734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5d2a05e071628a45a84e103686b17d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &824348737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33313,7 +33275,6 @@ GameObject:
   m_Component:
   - component: {fileID: 950721990}
   - component: {fileID: 950721992}
-  - component: {fileID: 950721991}
   m_Layer: 0
   m_Name: TorchBridgeLeft
   m_TagString: Untagged
@@ -33336,18 +33297,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1669957086}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &950721991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 950721989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5d2a05e071628a45a84e103686b17d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &950721992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33900,7 +33849,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1054938563}
   - component: {fileID: 1054938565}
-  - component: {fileID: 1054938564}
   m_Layer: 0
   m_Name: TorchBridgeRight
   m_TagString: Untagged
@@ -33923,18 +33871,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1669957086}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1054938564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1054938562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5d2a05e071628a45a84e103686b17d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1054938565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39344,7 +39280,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1181206093}
   - component: {fileID: 1181206095}
-  - component: {fileID: 1181206094}
   m_Layer: 0
   m_Name: TorchLeftPillar2
   m_TagString: Untagged
@@ -39367,18 +39302,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1669957086}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1181206094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1181206092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5d2a05e071628a45a84e103686b17d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1181206095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51020,7 +50943,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1460947683}
   - component: {fileID: 1460947685}
-  - component: {fileID: 1460947684}
   m_Layer: 0
   m_Name: TorchEntranceLeft1
   m_TagString: Untagged
@@ -51043,18 +50965,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1669957086}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1460947684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1460947682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5d2a05e071628a45a84e103686b17d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1460947685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52410,7 +52320,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1576755299}
   - component: {fileID: 1576755301}
-  - component: {fileID: 1576755300}
   m_Layer: 0
   m_Name: TorchRightPilar2
   m_TagString: Untagged
@@ -52433,18 +52342,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1669957086}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1576755300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1576755298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5d2a05e071628a45a84e103686b17d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1576755301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54013,7 +53910,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1889436744}
   - component: {fileID: 1889436746}
-  - component: {fileID: 1889436745}
   m_Layer: 0
   m_Name: TorchLeftPillar1
   m_TagString: Untagged
@@ -54036,18 +53932,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1669957086}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1889436745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1889436743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5d2a05e071628a45a84e103686b17d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1889436746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54634,7 +54518,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1986007623}
   - component: {fileID: 1986007625}
-  - component: {fileID: 1986007624}
   m_Layer: 0
   m_Name: TorchDoorRight
   m_TagString: Untagged
@@ -54657,18 +54540,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1669957086}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1986007624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1986007622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5d2a05e071628a45a84e103686b17d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1986007625
 MonoBehaviour:
   m_ObjectHideFlags: 0
