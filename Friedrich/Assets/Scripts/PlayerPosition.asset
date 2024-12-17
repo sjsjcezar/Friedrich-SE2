@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46699811f404b4d4790c329e887b2333, type: 3}
   m_Name: PlayerPosition
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   lastOverworldPosition: {x: 80.985756, y: -108.47062, z: -0.009455053}
+=======
+  lastOverworldPosition: {x: 90.05528, y: -133.92151, z: -0.009455053}
+>>>>>>> Stashed changes
   hasStoredPosition: 1
