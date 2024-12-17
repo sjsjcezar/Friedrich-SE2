@@ -20513,6 +20513,65 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &1650671848 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3653851882284571959, guid: 916c1d01b7b78244f987314cf32946cc, type: 3}
+  m_PrefabInstance: {fileID: 4577151127037882260}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1650671849 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 322568606418009644, guid: 916c1d01b7b78244f987314cf32946cc, type: 3}
+  m_PrefabInstance: {fileID: 4577151127037882260}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1650671850 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1364165203199695666, guid: 916c1d01b7b78244f987314cf32946cc, type: 3}
+  m_PrefabInstance: {fileID: 4577151127037882260}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1650671851 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 163599249806081873, guid: 916c1d01b7b78244f987314cf32946cc, type: 3}
+  m_PrefabInstance: {fileID: 4577151127037882260}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1650671852 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6474313907310999450, guid: 916c1d01b7b78244f987314cf32946cc, type: 3}
+  m_PrefabInstance: {fileID: 4577151127037882260}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1650671853 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1359893136821423568, guid: 916c1d01b7b78244f987314cf32946cc, type: 3}
+  m_PrefabInstance: {fileID: 4577151127037882260}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1650671854 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4465959157853940077, guid: 916c1d01b7b78244f987314cf32946cc, type: 3}
+  m_PrefabInstance: {fileID: 4577151127037882260}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1659795515
 GameObject:
   m_ObjectHideFlags: 0
@@ -69009,6 +69068,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 690114243}
     - target: {fileID: 3063696677912583408, guid: 6236394d6d7f10b47a77bd6ce755016e, type: 3}
+      propertyPath: back2Button
+      value: 
+      objectReference: {fileID: 1650671848}
+    - target: {fileID: 3063696677912583408, guid: 6236394d6d7f10b47a77bd6ce755016e, type: 3}
       propertyPath: leaveButton
       value: 
       objectReference: {fileID: 2034008501}
@@ -69020,6 +69083,10 @@ PrefabInstance:
       propertyPath: vialsButton
       value: 
       objectReference: {fileID: 2094665418}
+    - target: {fileID: 3063696677912583408, guid: 6236394d6d7f10b47a77bd6ce755016e, type: 3}
+      propertyPath: castleButton
+      value: 
+      objectReference: {fileID: 1650671852}
     - target: {fileID: 3063696677912583408, guid: 6236394d6d7f10b47a77bd6ce755016e, type: 3}
       propertyPath: interactText
       value: 
@@ -69053,9 +69120,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1079493800}
     - target: {fileID: 3063696677912583408, guid: 6236394d6d7f10b47a77bd6ce755016e, type: 3}
+      propertyPath: teleport2Button
+      value: 
+      objectReference: {fileID: 1650671854}
+    - target: {fileID: 3063696677912583408, guid: 6236394d6d7f10b47a77bd6ce755016e, type: 3}
       propertyPath: yggdrasilButton
       value: 
       objectReference: {fileID: 63812802}
+    - target: {fileID: 3063696677912583408, guid: 6236394d6d7f10b47a77bd6ce755016e, type: 3}
+      propertyPath: blacksmithButton
+      value: 
+      objectReference: {fileID: 1650671850}
     - target: {fileID: 3063696677912583408, guid: 6236394d6d7f10b47a77bd6ce755016e, type: 3}
       propertyPath: currentPowerText
       value: 
@@ -69093,6 +69168,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1111597303}
     - target: {fileID: 3063696677912583408, guid: 6236394d6d7f10b47a77bd6ce755016e, type: 3}
+      propertyPath: castleGreyedOutPanel
+      value: 
+      objectReference: {fileID: 1650671851}
+    - target: {fileID: 3063696677912583408, guid: 6236394d6d7f10b47a77bd6ce755016e, type: 3}
       propertyPath: currentFortitudeText
       value: 
       objectReference: {fileID: 1255353281}
@@ -69101,6 +69180,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 235365861}
     - target: {fileID: 3063696677912583408, guid: 6236394d6d7f10b47a77bd6ce755016e, type: 3}
+      propertyPath: teleport2OptionsPanel
+      value: 
+      objectReference: {fileID: 1650671853}
+    - target: {fileID: 3063696677912583408, guid: 6236394d6d7f10b47a77bd6ce755016e, type: 3}
       propertyPath: outskirtsGreyedOutPanel
       value: 
       objectReference: {fileID: 4577151127037882261}
@@ -69108,6 +69191,10 @@ PrefabInstance:
       propertyPath: yggdrasilGreyedOutPanel
       value: 
       objectReference: {fileID: 4577151127037882262}
+    - target: {fileID: 3063696677912583408, guid: 6236394d6d7f10b47a77bd6ce755016e, type: 3}
+      propertyPath: blacksmithGreyedOutPanel
+      value: 
+      objectReference: {fileID: 1650671849}
     - target: {fileID: 3063696677912583408, guid: 6236394d6d7f10b47a77bd6ce755016e, type: 3}
       propertyPath: crystalsNeededCounterText
       value: 
