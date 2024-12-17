@@ -679,9 +679,19 @@ MonoBehaviour:
   shopPanelsGO:
   - {fileID: 237478522}
   - {fileID: 486463534}
+  - {fileID: 2129455545}
+  - {fileID: 676238506}
+  - {fileID: 332317378}
+  - {fileID: 1836113195}
+  - {fileID: 1930734617}
   shopPanels:
   - {fileID: 237478524}
   - {fileID: 486463533}
+  - {fileID: 2129455544}
+  - {fileID: 676238505}
+  - {fileID: 332317380}
+  - {fileID: 1836113194}
+  - {fileID: 1930734616}
   shopUI: {fileID: 109662610}
   playerStats: {fileID: 11400000, guid: 0b7c6d245fa1abd44a842a8d6e209c4c, type: 2}
   leaveButton: {fileID: 467782791}
@@ -1800,7 +1810,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 0bda30f052a8c5a4a9fa2043e68a6268, type: 3}
     - target: {fileID: 834578039536536266, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_text
-      value: 'Damage: 700'
+      value: Stat
       objectReference: {fileID: 0}
     - target: {fileID: 1887999780755795021, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_Name
@@ -1888,11 +1898,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2695166305456412953, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_text
-      value: Dreadforged Claymore
+      value: Title
       objectReference: {fileID: 0}
     - target: {fileID: 2754132897175932497, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_text
-      value: 'Power Bonus: 30'
+      value: Stat2
       objectReference: {fileID: 0}
     - target: {fileID: 4946107815983208927, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_Sprite
@@ -1948,6 +1958,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2228417263081070555, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
   m_PrefabInstance: {fileID: 332317376}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &332317378 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1887999780755795021, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
+  m_PrefabInstance: {fileID: 332317376}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &332317379 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4946107815983208927, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
@@ -1964,7 +1979,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5143395522390635749, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
   m_PrefabInstance: {fileID: 332317376}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 332317378}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78fa0561e8bae8f4d802ca79952a35e4, type: 3}
@@ -3975,7 +3990,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 0bda30f052a8c5a4a9fa2043e68a6268, type: 3}
     - target: {fileID: 834578039536536266, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_text
-      value: 'Damage: 170'
+      value: Stat1
       objectReference: {fileID: 0}
     - target: {fileID: 1887999780755795021, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_Name
@@ -4063,11 +4078,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2695166305456412953, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_text
-      value: Bloodveil Reaver
+      value: Title
       objectReference: {fileID: 0}
     - target: {fileID: 2754132897175932497, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_text
-      value: 'Power Bonus: 90'
+      value: Stat2
       objectReference: {fileID: 0}
     - target: {fileID: 4946107815983208927, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_Sprite
@@ -4150,12 +4165,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5143395522390635749, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
   m_PrefabInstance: {fileID: 676238501}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 676238506}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78fa0561e8bae8f4d802ca79952a35e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &676238506 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1887999780755795021, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
+  m_PrefabInstance: {fileID: 676238501}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &694494663
 GameObject:
   m_ObjectHideFlags: 0
@@ -16245,7 +16265,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 0bda30f052a8c5a4a9fa2043e68a6268, type: 3}
     - target: {fileID: 834578039536536266, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_text
-      value: 'Damage: 550'
+      value: Stat1
       objectReference: {fileID: 0}
     - target: {fileID: 1887999780755795021, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_Name
@@ -16333,13 +16353,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2695166305456412953, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_text
-      value: 'Gravewarden''s Legacy
-
-'
+      value: Title
       objectReference: {fileID: 0}
     - target: {fileID: 2754132897175932497, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_text
-      value: 'Power Bonus: 60'
+      value: Stat2
       objectReference: {fileID: 0}
     - target: {fileID: 4946107815983208927, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_Sprite
@@ -16422,12 +16440,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5143395522390635749, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
   m_PrefabInstance: {fileID: 1836113190}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1836113195}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78fa0561e8bae8f4d802ca79952a35e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1836113195 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1887999780755795021, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
+  m_PrefabInstance: {fileID: 1836113190}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1887214339
 GameObject:
   m_ObjectHideFlags: 0
@@ -16610,7 +16633,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 0bda30f052a8c5a4a9fa2043e68a6268, type: 3}
     - target: {fileID: 834578039536536266, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_text
-      value: 'Damage: 600'
+      value: Stat1
       objectReference: {fileID: 0}
     - target: {fileID: 1887999780755795021, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_Name
@@ -16698,13 +16721,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2695166305456412953, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_text
-      value: 'Gravewarden''s Legacy
-
-'
+      value: Title
       objectReference: {fileID: 0}
     - target: {fileID: 2754132897175932497, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_text
-      value: 'Damage Bonus: 110'
+      value: Stat2
       objectReference: {fileID: 0}
     - target: {fileID: 4946107815983208927, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_Sprite
@@ -16787,12 +16808,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5143395522390635749, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
   m_PrefabInstance: {fileID: 1930734612}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1930734617}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78fa0561e8bae8f4d802ca79952a35e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1930734617 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1887999780755795021, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
+  m_PrefabInstance: {fileID: 1930734612}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1957136581
 GameObject:
   m_ObjectHideFlags: 0
@@ -17429,7 +17455,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 0bda30f052a8c5a4a9fa2043e68a6268, type: 3}
     - target: {fileID: 834578039536536266, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_text
-      value: 'Damage: 100'
+      value: Stat1
       objectReference: {fileID: 0}
     - target: {fileID: 1887999780755795021, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_Name
@@ -17517,11 +17543,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2695166305456412953, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_text
-      value: Ashen Oathblade
+      value: Title
       objectReference: {fileID: 0}
     - target: {fileID: 2754132897175932497, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_text
-      value: 'Power Bonus: 10'
+      value: Stat2
       objectReference: {fileID: 0}
     - target: {fileID: 4946107815983208927, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
       propertyPath: m_Sprite
@@ -17616,12 +17642,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5143395522390635749, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
   m_PrefabInstance: {fileID: 2129455540}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2129455545}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78fa0561e8bae8f4d802ca79952a35e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2129455545 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1887999780755795021, guid: 481c5e159e8c2ab42a2765549b8199e7, type: 3}
+  m_PrefabInstance: {fileID: 2129455540}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2131130413
 GameObject:
   m_ObjectHideFlags: 0

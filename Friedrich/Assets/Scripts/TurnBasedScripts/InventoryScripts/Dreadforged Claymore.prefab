@@ -133,5 +133,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe42843c5b77cd749ab144c852400270, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponSO: {fileID: 11400000, guid: ce52b21d6bb20ba478de9e40973038cf, type: 2}
-  uniqueID: 
+  weaponSO: {fileID: 11400000, guid: ac3d96dd8bacfc94cbe57a47137ea387, type: 2}
+  uniqueID: dreadforged_claymore

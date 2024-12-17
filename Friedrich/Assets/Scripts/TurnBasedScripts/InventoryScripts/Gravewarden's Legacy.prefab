@@ -133,5 +133,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe42843c5b77cd749ab144c852400270, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponSO: {fileID: 11400000, guid: c9d9647b944038f488954681dc6310d2, type: 2}
-  uniqueID: 
+  weaponSO: {fileID: 11400000, guid: fcf7f9ad643e6ca4da34e87ead7cf3d0, type: 2}
+  uniqueID: gravewardens_legacy

@@ -133,5 +133,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe42843c5b77cd749ab144c852400270, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponSO: {fileID: 11400000, guid: aed833eea57db494786a4d19d9f4b3ff, type: 2}
-  uniqueID: 12345678
+  weaponSO: {fileID: 11400000, guid: 80af3b60c16b9844f8bf758d78782ab7, type: 2}
+  uniqueID: ebonfang_greatsword
