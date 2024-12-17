@@ -26,6 +26,7 @@ public class StatueController : MonoBehaviour
     public Button vialsButton;
     public Button upgradeSpellsButton;
     public Button leaveButton;
+    public Button teleport2Button;
     public TextMeshProUGUI textWherePlayerIs;
 
     [Header("Teleport UI Elements")]
@@ -35,6 +36,15 @@ public class StatueController : MonoBehaviour
     public Button outskirtsButton;
     public GameObject outskirtsGreyedOutPanel;
     public Button backButton;
+    public GameObject teleport2GreyedOutPanel;
+
+    [Header("Teleport2 UI Elements")]
+    public GameObject teleport2OptionsPanel;
+    public Button castleButton;
+    public GameObject castleGreyedOutPanel;
+    public Button blacksmithButton;
+    public GameObject blacksmithGreyedOutPanel;
+    public Button back2Button;
 
     [Header("Level Up UI Elements")]
     public GameObject levelUpPanel;
@@ -68,6 +78,10 @@ public class StatueController : MonoBehaviour
     public float fadeDuration = 1f;
     private bool isFading = false;
 
+    [Header("Transition Panels")]
+    public GameObject leftTransitionPanel;
+    public GameObject rightTransitionPanel;
+
     private void Awake()
     {
         if (Instance == null)
@@ -86,6 +100,7 @@ public class StatueController : MonoBehaviour
         statueUIPanel.SetActive(false);
         vialsButton.gameObject.SetActive(false);
         teleportButton.gameObject.SetActive(false);
+	teleport2Button.gameObject.SetActive(false);
         levelUpButton.gameObject.SetActive(false);
         upgradeSpellsButton.gameObject.SetActive(false);
         leaveButton.gameObject.SetActive(false);
@@ -117,6 +132,11 @@ public class StatueController : MonoBehaviour
         backButton.onClick.AddListener(BackFromTeleportOptions);
         yggdrasilButton.onClick.AddListener(TeleportToYggdrasil);
         teleportOptionsPanel.SetActive(false);
+	
+	castleButton.onClick.AddListener(TeleportToCastle);
+	back2Button.onClick.AddListener(BackFromTeleport2Options);
+	blacksmithButton.onClick.AddListener(TeleportToBlacksmith);
+	teleport2OptionsPanel.SetActive(false);
         
         // Initialize fade image
         Color color = fadeImage.color;
@@ -145,6 +165,7 @@ public class StatueController : MonoBehaviour
         statueUIPanel.SetActive(false);
         vialsButton.gameObject.SetActive(false);
         teleportButton.gameObject.SetActive(false);
+	teleport2Button.gameObject.SetActive(false);
         levelUpButton.gameObject.SetActive(false);
         upgradeSpellsButton.gameObject.SetActive(false);
         leaveButton.gameObject.SetActive(false);
@@ -154,6 +175,19 @@ public class StatueController : MonoBehaviour
 
         // Update teleport buttons based on current scene
         UpdateTeleportButtons();
+    }
+
+    private void OpenTeleport2Options()
+    {
+        statueUIPanel.SetActive(false);
+        vialsButton.gameObject.SetActive(false);
+        teleportButton.gameObject.SetActive(false);
+	teleport2Button.gameObject.SetActive(false);
+        levelUpButton.gameObject.SetActive(false);
+        upgradeSpellsButton.gameObject.SetActive(false);
+        leaveButton.gameObject.SetActive(false);
+        teleport2OptionsPanel.SetActive(true);
+        UpdateTeleport2Buttons();
     }
 
     private void UpdateTeleportButtons()
@@ -215,6 +249,50 @@ public class StatueController : MonoBehaviour
         }
     }
 
+    private void UpdateTeleport2Buttons()
+    {
+        string currentScene = SceneManager.GetActiveScene().name;
+
+        // First handle the Teleport 2 Button state based on scene
+        if (currentScene.Equals("SampleScene", System.StringComparison.OrdinalIgnoreCase))
+        {
+            // Disable Teleport 2 Button in SampleScene
+            teleport2Button.interactable = false;
+            SetButtonTextColor(teleport2Button, Color.gray);
+            if (teleport2GreyedOutPanel != null)
+                teleport2GreyedOutPanel.SetActive(true);
+
+            if (textWherePlayerIs != null)
+            textWherePlayerIs.color = Color.white;
+
+            if (castleGreyedOutPanel != null)
+                castleGreyedOutPanel.SetActive(true);
+            if (blacksmithGreyedOutPanel != null)
+                blacksmithGreyedOutPanel.SetActive(true);
+        }
+        else if (currentScene.Equals("YggdrasilSampleScene", System.StringComparison.OrdinalIgnoreCase))
+        {
+            // Enable Teleport 2 Button in other scenes
+            teleport2Button.interactable = true;
+            SetButtonTextColor(teleport2Button, Color.white);
+            if (teleport2GreyedOutPanel != null)
+                teleport2GreyedOutPanel.SetActive(false);
+
+            if (textWherePlayerIs != null)
+            textWherePlayerIs.color = Color.white;
+            
+            if (castleGreyedOutPanel != null)
+                castleGreyedOutPanel.SetActive(false);
+            if (blacksmithGreyedOutPanel != null)
+                blacksmithGreyedOutPanel.SetActive(false);
+        }
+
+
+        // Update location text color
+        if (textWherePlayerIs != null)
+            textWherePlayerIs.color = Color.white;
+    }
+
     private void SetButtonTextColor(Button button, Color color)
     {
         TextMeshProUGUI buttonText = button.GetComponentInChildren<TextMeshProUGUI>();
@@ -234,6 +312,98 @@ public class StatueController : MonoBehaviour
     {
         GlobalVariables.lastTeleportSpawnID = "yggdrasil_spawn";
         StartCoroutine(TeleportWithEffects("SampleScene"));
+    }
+
+private void TeleportToCastle()
+{
+    Vector3 targetPosition = new Vector3(332, -100, 0);
+        
+	GameObject persistentCanvas = GameObject.Find("DialogueCanvas"); // Replace with your canvas name
+        if (persistentCanvas != null)
+        {
+            leftTransitionPanel = persistentCanvas.transform.Find("LeftTransitionPanel").gameObject;
+            rightTransitionPanel = persistentCanvas.transform.Find("RightTransitionPanel").gameObject;
+        }
+        StartCoroutine(PlayOpeningAnimation());
+    
+   TeleportPlayer(targetPosition);
+}
+
+private void TeleportToBlacksmith()
+{
+    Vector3 targetPosition = new Vector3(333, -164, 0);
+    
+    	GameObject persistentCanvas = GameObject.Find("DialogueCanvas"); // Replace with your canvas name
+        if (persistentCanvas != null)
+        {
+            leftTransitionPanel = persistentCanvas.transform.Find("LeftTransitionPanel").gameObject;
+            rightTransitionPanel = persistentCanvas.transform.Find("RightTransitionPanel").gameObject;
+        }
+        StartCoroutine(PlayOpeningAnimation());
+
+    TeleportPlayer(targetPosition);
+}
+
+private void TeleportPlayer(Vector3 targetPosition)
+{
+    if (playerMovement != null)
+    {
+        playerMovement.enabled = false;
+    }
+
+    if (playerMovement != null)
+    {
+        playerMovement.transform.position = targetPosition;
+    }
+
+    if (playerMovement != null)
+    {
+        playerMovement.enabled = true;
+    }
+    CleanupStatueUI();
+}
+
+    private IEnumerator PlayOpeningAnimation()
+    {
+        // Start with time paused
+        Time.timeScale = 2f;
+
+        // Make sure panels are active and centered
+        leftTransitionPanel.SetActive(true);
+        rightTransitionPanel.SetActive(true);
+        
+        RectTransform leftRect = leftTransitionPanel.GetComponent<RectTransform>();
+        RectTransform rightRect = rightTransitionPanel.GetComponent<RectTransform>();
+        
+        // Start from center
+        leftRect.anchoredPosition = Vector2.zero;
+        rightRect.anchoredPosition = Vector2.zero;
+
+        // Wait a frame to ensure everything is set up
+        yield return null;
+
+        // Smoothly open the panels
+        float elapsedTime = 0f;
+        float openDuration = 2f;  // Faster opening in battle
+        
+        while (elapsedTime < openDuration)
+        {
+            elapsedTime += Time.unscaledDeltaTime;
+            float progress = elapsedTime / openDuration;
+            float smoothProgress = progress * progress * (3f - 2f * progress);
+            
+            // Move panels from center back to edges
+            leftRect.anchoredPosition = Vector2.Lerp(Vector2.zero, new Vector2(-Screen.width, 0), smoothProgress);
+            rightRect.anchoredPosition = Vector2.Lerp(Vector2.zero, new Vector2(Screen.width, 0), smoothProgress);
+            yield return null;
+        }
+        
+        // Hide panels when done
+        leftTransitionPanel.SetActive(false);
+        rightTransitionPanel.SetActive(false);
+
+        // Resume time for battle
+        Time.timeScale = 1f;
     }
 
     private IEnumerator TeleportWithEffects(string sceneName)
@@ -330,11 +500,13 @@ public class StatueController : MonoBehaviour
     {
         statueUIPanel.SetActive(false);
         teleportOptionsPanel.SetActive(false);
+	teleport2OptionsPanel.SetActive(false);
         vialsButton.gameObject.SetActive(false);
         teleportButton.gameObject.SetActive(false);
         levelUpButton.gameObject.SetActive(false);
         upgradeSpellsButton.gameObject.SetActive(false);
         leaveButton.gameObject.SetActive(false);
+	teleport2Button.gameObject.SetActive(false);
         
         // Make sure vial UI is visible in the overworld
         FindObjectOfType<VialOverworldManager>()?.SetUIVisibility(true);
@@ -367,6 +539,23 @@ public class StatueController : MonoBehaviour
         levelUpButton.gameObject.SetActive(true);
         upgradeSpellsButton.gameObject.SetActive(true);
         leaveButton.gameObject.SetActive(true);
+        teleport2Button.gameObject.SetActive(true);
+    }
+
+    private void BackFromTeleport2Options()
+    {
+	// Hide teleport options
+        teleport2OptionsPanel.SetActive(false);
+        
+        // Re-enable existing UI elements
+        statueUIPanel.SetActive(true);
+        vialsButton.gameObject.SetActive(true);
+        teleportButton.gameObject.SetActive(true);
+        levelUpButton.gameObject.SetActive(true);
+        upgradeSpellsButton.gameObject.SetActive(true);
+        leaveButton.gameObject.SetActive(true);
+        teleport2Button.gameObject.SetActive(true);
+
     }
 
 
@@ -409,6 +598,14 @@ public class StatueController : MonoBehaviour
         {
             textWherePlayerIs.text = "Yggdrasil's Outskirts";
         }
+	else if (currentScene.Equals("CastleInterior", System.StringComparison.OrdinalIgnoreCase))
+	{
+	    textWherePlayerIs.text = "Castle";
+	}
+	else if(currentScene.Equals("BlacksmithInterior", System.StringComparison.OrdinalIgnoreCase))
+	{
+	    textWherePlayerIs.text = "Blacksmith Shop";
+	}
     }
 
     private void CloseLevelUpPanel()
@@ -636,6 +833,7 @@ public class StatueController : MonoBehaviour
         levelUpButton.gameObject.SetActive(false);
         upgradeSpellsButton.gameObject.SetActive(false);
         leaveButton.gameObject.SetActive(false);
+	teleport2Button.gameObject.SetActive(false);
         
         VialController.Instance.OpenVialUI();
     }
@@ -655,6 +853,7 @@ public class StatueController : MonoBehaviour
         levelUpButton.gameObject.SetActive(false);
         upgradeSpellsButton.gameObject.SetActive(false);
         leaveButton.gameObject.SetActive(false);
+	teleport2Button.gameObject.SetActive(false);
 
         // Re-enable player movement
         if (playerMovement != null)
@@ -673,6 +872,7 @@ public class StatueController : MonoBehaviour
         levelUpButton.gameObject.SetActive(true);
         upgradeSpellsButton.gameObject.SetActive(true);
         leaveButton.gameObject.SetActive(true);
+	teleport2Button.gameObject.SetActive(true);
         UpdateLocationText();
     }
 
@@ -684,6 +884,10 @@ public class StatueController : MonoBehaviour
         {
             teleportButton.onClick.AddListener(OpenTeleportOptions);
         }
+        if (teleport2Button != null)
+        {
+            teleport2Button.onClick.AddListener(OpenTeleport2Options);
+        }
     }
 
     private void OnDisable()
@@ -694,6 +898,11 @@ public class StatueController : MonoBehaviour
         {
             teleportButton.onClick.RemoveListener(OpenTeleportOptions);
         }
+        if (teleport2Button != null)
+        {
+	    teleport2Button.onClick.RemoveListener(OpenTeleport2Options);
+        }
+
     }
 
    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
