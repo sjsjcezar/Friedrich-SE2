@@ -31986,6 +31986,7 @@ MonoBehaviour:
   currentFortitudeText1: {fileID: 1467259268}
   currentArcaneText1: {fileID: 1467259267}
   fateCrystalText: {fileID: 1467259277}
+  playerStats: {fileID: 0}
 --- !u!4 &371866737
 Transform:
   m_ObjectHideFlags: 0
@@ -73344,7 +73345,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 129
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 70cf6a1eff573984bb4176cf79cae0de, type: 2}
   m_TargetDisplay: 0
@@ -74170,7 +74171,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0

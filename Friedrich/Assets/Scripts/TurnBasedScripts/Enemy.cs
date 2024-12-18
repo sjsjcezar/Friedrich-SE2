@@ -215,6 +215,7 @@ public class Enemy : MonoBehaviour
             }
 
             playerStats.TakeDamage(selectedSkill.damage);
+            AudioManager.Instance.PlayThunderSound();
             skillUseCount++;
         }
         else
@@ -374,6 +375,7 @@ public class Enemy : MonoBehaviour
         }
 
         target.TakeDamage(finalDamage);
+        AudioManager.Instance.PlayThunderSound();
         if (target.Vitality <= 0)
         {
             StartCoroutine(HandlePlayerDeath(target));

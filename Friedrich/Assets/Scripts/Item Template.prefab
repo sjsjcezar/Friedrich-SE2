@@ -369,6 +369,7 @@ MonoBehaviour:
   costTxt: {fileID: 6334971370849871356}
   weaponImage: {fileID: 4946107815983208927}
   shopItem: {fileID: 11400000, guid: 3af38d6d6ee4ba74e9fbbd11bae48fe2, type: 2}
+  purchaseButton: {fileID: 5214455848762921545}
 --- !u!1 &2651017283469253064
 GameObject:
   m_ObjectHideFlags: 0
@@ -607,7 +608,7 @@ RectTransform:
   m_GameObject: {fileID: 3112490969874600411}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.043199, y: 1.043199, z: 1.043199}
+  m_LocalScale: {x: 0.8867191, y: 1.043199, z: 1.043199}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2228417263081070555}
@@ -850,19 +851,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 663824897035162092}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ShopManager, Assembly-CSharp
-        m_MethodName: PurchaseItem
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!1 &6144962385209723332
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,8 +944,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 14.88
+  m_fontSizeBase: 14.88
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1089,8 +1078,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 14.88
+  m_fontSizeBase: 14.88
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

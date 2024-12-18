@@ -3255,7 +3255,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -4532,8 +4532,11 @@ MonoBehaviour:
   sliderSpeed: 1
   border: {fileID: 1381433685}
   audioSource: {fileID: 0}
-  successfulHitSounds: []
-  unsuccessfulHitSound: {fileID: 0}
+  successfulHitSounds:
+  - {fileID: 8300000, guid: 4ade594d547d96743ac8696b72663b9c, type: 3}
+  - {fileID: 8300000, guid: 6f58659c2bb18ae46b56eb9aa255d39b, type: 3}
+  - {fileID: 8300000, guid: 894a2f1f0231f6940a2a969fd07446f8, type: 3}
+  unsuccessfulHitSound: {fileID: 8300000, guid: 3248430c4f4ef0e41ae89db3f86f7736, type: 3}
   crescentSlider: {fileID: 1627536952}
   whiteBarImage: {fileID: 1594266855}
   leftTransitionPanel: {fileID: 0}

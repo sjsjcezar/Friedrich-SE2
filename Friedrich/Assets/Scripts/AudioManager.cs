@@ -14,6 +14,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip battleMusic;
     public AudioClip rapidAssaultMusic; 
     public AudioClip slashSound;
+    public AudioClip thunderSound;
     
     [Header("Transition Settings")]
     public float fadeSpeed = 1.0f;
@@ -53,6 +54,20 @@ public class AudioManager : MonoBehaviour
             skillEffectSource.loop = false;
             skillEffectSource.Play();
         }
+    }
+
+    public void PlayThunderSound()
+    {
+        if (thunderSound != null)
+        {
+            Debug.Log("Thunder sound played");
+            skillEffectSource.PlayOneShot(thunderSound, 0.7f);
+        }
+        else
+        {
+            Debug.LogWarning("No thunder sound available.");  
+        }
+
     }
 
     public void PlaySlashSound()
