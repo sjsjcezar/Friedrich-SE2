@@ -9,8 +9,8 @@ Welcome to **Altus**, a world once vibrant and alive—now threatened by a loomi
 ---
 
 ## 👨‍💻 Developed By: Wet Bananas Studios
+- **Samuel Cezar**
 - **Carlos Matthew A. Sierra**  
-- **Samuel Cezar**  
 - **Evann Bellen**  
 - **Hannah Poja**
 
