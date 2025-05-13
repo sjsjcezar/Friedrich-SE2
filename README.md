@@ -59,3 +59,6 @@ Welcome to **Altus**, a world once vibrant and alive... Now threatened by a loom
 
 > Made with care by **Wet Bananas Studios** 🍌  
 > *Turning ideas into immersive experiences.*
+
+
+![freidrich poster](freidrich_poster.png)
