@@ -33,7 +33,7 @@ Welcome to **Altus**, a world once vibrant and alive—now threatened by a loomi
 ### ✅ To Explore the Game:
 1. **Open in Unity Editor**.
 2. **Unity Version**: `2022.3.9f1`
-3. Navigate to the **`Scene 1`** in the `Scenes` folder.
+3. Navigate to the **`Yggdrasil`** in the `Scenes` folder.
 4. Press `Play` in the Unity Editor to explore systems like:
    - Turn-based battle (now integrated into main scene)
    - Inventory and stat scaling
