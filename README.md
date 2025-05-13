@@ -2,7 +2,7 @@
 *A 2.5D Turn-Based RPG developed by Wet Bananas Studios*
 
 ## 🌴 About the Game
-Welcome to **Altus**, a world once vibrant and alive—now threatened by a looming evil. Transported mysteriously from Earth, you must restore balance to this deteriorating realm. Engage in turn-based combat, manage your stats and equipment, and unravel the story that binds Altus together.
+Welcome to **Altus**, a world once vibrant and alive... Now threatened by a looming evil. Transported mysteriously from Earth, you must restore balance to this deteriorating realm. Engage in turn-based combat, manage your stats and equipment, and unravel the story that binds Altus together.
 
 > This project is a student-led indie RPG created as part of our final coursework.
 
