@@ -60,7 +60,7 @@ Welcome to **Altus**, a world once vibrant and alive... Now threatened by a loom
 
 ![freidrich poster](freidrich_poster.png)
 
-Acknowledgement:
+## Acknowledgement:
 		- Benjamin K. Smith (BenCreating)
 		- bluecarrot16
 		- TheraHedwig
