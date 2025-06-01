@@ -1,4 +1,4 @@
-# Friedrich: Echoes of Altus  
+# Friedrich: Scourge of Altus  
 *A 2D Turn-Based RPG developed by Wet Bananas Studios*
 
 ## 🌴 About the Game
