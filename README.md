@@ -1,5 +1,5 @@
 # Friedrich: Echoes of Altus  
-*A 2.5D Turn-Based RPG developed by Wet Bananas Studios*
+*A 2D Turn-Based RPG developed by Wet Bananas Studios*
 
 ## 🌴 About the Game
 Welcome to **Altus**, a world once vibrant and alive... Now threatened by a looming evil. Transported mysteriously from Earth, you must restore balance to this deteriorating realm. Engage in turn-based combat, manage your stats and equipment, and unravel the story that binds Altus together.
@@ -17,7 +17,7 @@ Welcome to **Altus**, a world once vibrant and alive... Now threatened by a loom
 ---
 
 ## ⚙️ Project Description
-**Friedrich** is a Unity-based 2.5D RPG that includes:
+**Friedrich** is a Unity-based 2D RPG that includes:
 - A **turn-based combat system** inspired by classic JRPGs.
 - An animated **leveling system** using Fate Crystals to scale stats like HP, MP, and resistances.
 - A **revamped inventory system** that allows weapon equipping, stat scaling, and restrictions based on player class.
