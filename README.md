@@ -28,16 +28,9 @@ Welcome to **Altus**, a world once vibrant and alive... Now threatened by a loom
 
 ## 🕹️ Mechanics & Usage
 
-> ⚠️ This is a development version. The game is **not yet fully playable**, but systems are testable within the Unity editor.
+> ⚠️ This is a development version. The game is **not yet completed**, you can either test the game within the Unity editor or download it as a build.
 
-### ✅ To Explore the Game:
-1. **Open in Unity Editor**.
-2. **Unity Version**: `2022.3.9f1`
-3. Navigate to the **`Yggdrasil`** in the `Scenes` folder.
-4. Press `Play` in the Unity Editor to explore systems like:
-   - Turn-based battle (now integrated into main scene)
-   - Inventory and stat scaling
-   - Pause menu and UI transitions
+### DO NOTE THAT IF YOU TEST THE GAME WITHIN UNIY EDITOR, YOU MIGHT GET CONFUSED!
 
 ---
 
@@ -62,3 +55,16 @@ Welcome to **Altus**, a world once vibrant and alive... Now threatened by a loom
 
 
 ![freidrich poster](freidrich_poster.png)
+
+Acknowledgement:
+		- Benjamin K. Smith (BenCreating)
+		- bluecarrot16
+		- TheraHedwig
+		- Evert
+		- MuffinElZangano
+		- Durrani
+		- Pierre Vigier (pvigier)
+		- ElizaWy
+		- Matthew Krohn (makrohn)
+		- Johannes Sjölund (wulax)
+		- Stephen Challener (Redshrike)
