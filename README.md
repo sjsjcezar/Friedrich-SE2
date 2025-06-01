@@ -18,11 +18,14 @@ Welcome to **Altus**, a world once vibrant and alive... Now threatened by a loom
 
 ## ⚙️ Project Description
 **Friedrich** is a Unity-based 2D RPG that includes:
-- A **turn-based combat system** inspired by classic JRPGs.
-- An animated **leveling system** using Fate Crystals to scale stats like HP, MP, and resistances.
-- A **revamped inventory system** that allows weapon equipping, stat scaling, and restrictions based on player class.
+- A **turn-based combat system** inspired by classic JRPGs. (Yes, including attacking, skills and using potions)
+- Dynamic AI Enemies (They attack, they cast a skill or even heal in an absurd rate >:) )
+- A **leveling system** using Fate Crystals to scale stats like HP, MP, and resistances.
+- An ** inventory system** that allows weapon equipping, stat scaling, and restrictions based on player class.
 - **UI Systems**: Pause Menu, Stat Display, and interactive inventory interface.
-- **Castle exploration** and environmental storytelling with dynamic lighting and transitions.
+- **Open world exploration** and environmental storytelling with dynamic lighting and transitions.
+- JSON-based save/load integration (Still buggy!)
+- Quest System and Rewards!
 
 ---
 
@@ -38,8 +41,7 @@ Welcome to **Altus**, a world once vibrant and alive... Now threatened by a loom
 - Armor management and additional equipment slots
 - Full mage compatibility
 - UI polish and weapon stat previews
-- JSON-based save/load integration
-- Quest and task allocation at statue checkpoints
+- Many more to come!
 
 ---
 
@@ -47,6 +49,8 @@ Welcome to **Altus**, a world once vibrant and alive... Now threatened by a loom
 - Mage skillsets are currently on hold due to time constraints.
 - Project scope is limited to core systems for demo purposes.
 - Feedback and collaboration welcome!
+- Only one quest is available in this game.
+- Majority of the animations are missing.
 
 ---
 
