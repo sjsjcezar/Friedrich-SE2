@@ -33,7 +33,7 @@ Welcome to **Altus**, a world once vibrant and alive... Now threatened by a loom
 
 > ⚠️ This is a development version. The game is **not yet completed**, you can either test the game within the Unity editor or download it as a build.
 
-### DO NOTE THAT IF YOU TEST THE GAME WITHIN UNIY EDITOR, YOU MIGHT GET CONFUSED!
+### PLEASE NOTE THAT IF YOU TEST THE GAME WITHIN THE UNITY EDITOR, YOU MIGHT GET CONFUSED!
 
 ---
 
